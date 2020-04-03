@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "WwSk8/Hl/g4tNDcyBRYDOanJxT+f3lNB5y55QMrb/n7EgNtOqvYGxH+6Lr7mF/zELFpMblij1AaaXHu+uQ5k9A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile.iOS\\QupidMobile.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\s1peregr\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": []
+}
