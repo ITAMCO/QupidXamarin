@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -9,6 +9,14 @@
     <DebugType>portable</DebugType>
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="qupidlogo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Qupidlogo.png" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />

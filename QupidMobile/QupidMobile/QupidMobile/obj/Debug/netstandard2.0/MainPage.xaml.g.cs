@@ -8,17 +8,29 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("QupidMobile.MainPage.xaml", "MainPage.xaml", typeof(global::xamarinTest.MainPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("QupidMobile.MainPage.xaml", "MainPage.xaml", typeof(global::QupidMobile.MainPage))]
 
-namespace xamarinTest {
+namespace QupidMobile {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.BoxView whiteBox;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Image qupidLogo;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Label userLabel;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
+            whiteBox = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.BoxView>(this, "whiteBox");
+            qupidLogo = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Image>(this, "qupidLogo");
+            userLabel = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "userLabel");
         }
     }
 }

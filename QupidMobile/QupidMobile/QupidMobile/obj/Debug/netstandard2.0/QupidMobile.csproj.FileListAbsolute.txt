@@ -4,3 +4,11 @@ C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMob
 C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\QupidMobile.csproj.CoreCompileInputs.cache
 C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\QupidMobile.AssemblyInfoInputs.cache
 C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\QupidMobile.AssemblyInfo.cs
+C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\bin\Debug\netstandard2.0\QupidMobile.deps.json
+C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\bin\Debug\netstandard2.0\QupidMobile.dll
+C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\bin\Debug\netstandard2.0\ref\QupidMobile.dll
+C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\bin\Debug\netstandard2.0\QupidMobile.pdb
+C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\QupidMobile.dll
+C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\ref\QupidMobile.dll
+C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\QupidMobile.pdb

@@ -11,6 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QupidMobile.iOS", "QupidMob
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QupidMobile", "QupidMobile\QupidMobile\QupidMobile.csproj", "{C26B7BDB-01A9-467F-A316-FBCCED6BD0F3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scale-100", "scale-100", "{598E667A-D988-4294-A5CD-F72C1DC3C18D}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\OneDrive - ITAMCO\Qupidlogo.png = ..\..\..\..\OneDrive - ITAMCO\Qupidlogo.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
