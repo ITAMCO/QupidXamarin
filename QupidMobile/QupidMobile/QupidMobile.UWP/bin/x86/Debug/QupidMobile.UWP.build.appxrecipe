@@ -562,8 +562,8 @@
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\qupidlogo.png">
-      <PackagePath>Assets\qupidlogo.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Qupidlogo.png">
+      <PackagePath>Assets\Qupidlogo.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>

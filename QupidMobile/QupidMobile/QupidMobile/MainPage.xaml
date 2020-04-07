@@ -38,7 +38,7 @@
                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
                              ElementName=whiteBox,
                              Property=Width,
-                             Factor=0.05,
+                             Factor=0.1,
                              Constant=0}"
                  RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
                              ElementName=whiteBox,
@@ -48,12 +48,12 @@
                  RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView,
                              ElementName=whiteBox,
                              Property=Width,
-                             Factor=0.99,
+                             Factor=0.9,
                              Constant=0}"
                  RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView,
                              ElementName=whiteBox,
                              Property=Height,
-                             Factor=0.5,
+                             Factor=0.55,
                              Constant=0}"/>
 
         <Label x:Name="userLabel"

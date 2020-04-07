@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-03T19:28:17.758</Modified>
+      <Modified>2020-04-07T14:34:46.676</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\QupidMobile.UWP.exe">
       <PackagePath>entrypoint\QupidMobile.UWP.exe</PackagePath>
-      <Modified>2020-04-03T19:28:13.765</Modified>
+      <Modified>2020-04-07T14:34:43.567</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s1peregr\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.9\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -720,7 +720,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\bin\Debug\netstandard2.0\QupidMobile.dll">
       <PackagePath>QupidMobile.dll</PackagePath>
-      <Modified>2020-04-03T19:51:41.622</Modified>
+      <Modified>2020-04-07T14:34:32.724</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -749,8 +749,8 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-03T18:19:58.256</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\qupidlogo.png">
-      <PackagePath>Assets\qupidlogo.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Qupidlogo.png">
+      <PackagePath>Assets\Qupidlogo.png</PackagePath>
       <Modified>2020-04-03T19:19:32.425</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\SmallTile.scale-100.png">
@@ -883,15 +883,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
       <PackagePath>Microsoft.UI.Xaml\DensityStyles\Compact.xbf</PackagePath>
-      <Modified>2020-04-03T19:28:12.926</Modified>
+      <Modified>2020-04-07T14:34:43.346</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-04-03T19:28:12.926</Modified>
+      <Modified>2020-04-07T14:34:43.346</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-04-03T19:28:12.926</Modified>
+      <Modified>2020-04-07T14:34:43.346</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -907,11 +907,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-04-03T19:28:16.043</Modified>
+      <Modified>2020-04-07T14:34:45.706</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\Core\QupidMobile.UWP.exe">
       <PackagePath>QupidMobile.UWP.exe</PackagePath>
-      <Modified>2020-04-03T19:28:17.732</Modified>
+      <Modified>2020-04-07T14:34:46.650</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
