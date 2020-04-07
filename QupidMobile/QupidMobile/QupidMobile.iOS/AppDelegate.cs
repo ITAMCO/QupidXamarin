@@ -24,8 +24,9 @@ namespace QupidMobile.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
-
+            KeyboardOverlap.Forms.Plugin.iOSUnified.KeyboardOverlapRenderer.Init();
             return base.FinishedLaunching(app, options);
+            ZXing.Net.Mobile.Forms.iOS.Platform.Init();
         }
     }
 }

@@ -2,7 +2,6 @@ WinMetadata\Windows.winmd
 Assets\LargeTile.scale-100.png
 Assets\LargeTile.scale-200.png
 Assets\LargeTile.scale-400.png
-Assets\Qupidlogo.png
 Assets\SmallTile.scale-100.png
 Assets\SmallTile.scale-200.png
 Assets\SmallTile.scale-400.png
@@ -29,6 +28,6 @@ Assets\Wide310x150Logo.scale-200.png
 Assets\Wide310x150Logo.scale-400.png
 App.xbf
 MainPage.xbf
-Microsoft.UI.Xaml\DensityStyles\Compact.xbf
 QupidMobile.UWP.xr.xml
 Properties\Default.rd.xml
+Qupidlogo.png

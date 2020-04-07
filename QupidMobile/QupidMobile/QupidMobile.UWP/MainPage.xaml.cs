@@ -20,8 +20,9 @@ namespace QupidMobile.UWP
         public MainPage()
         {
             this.InitializeComponent();
-
+            
             LoadApplication(new QupidMobile.App());
+            //ZXing.Net.Mobile.Forms.WindowsUniversal.Platform.Init();
         }
     }
 }

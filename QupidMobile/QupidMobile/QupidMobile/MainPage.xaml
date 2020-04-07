@@ -7,7 +7,7 @@
              x:Class="QupidMobile.MainPage">
 
     <RelativeLayout BackgroundColor="#395A83">
-        <BoxView BackgroundColor="white"
+        <RelativeLayout BackgroundColor="white"
                  x:Name="whiteBox"
                  RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,
                              Property=Width,
@@ -15,68 +15,98 @@
                              Constant=0}"
                  RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,
                              Property=Height,
-                             Factor=0.05,
+                             Factor=0.1,
                              Constant=0}"
                  RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,
                              Property=Width,
-                             Factor=0.90,
+                             Factor=0.9,
                              Constant=0}"
                  RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,
                              Property=Height,
-                             Factor=0.90,
-                             Constant=0}"
-                 >
+                             Factor=0.8,
+                             Constant=0}">
 
 
 
-
-
-        </BoxView>
-
-        <Image Source="Qupidlogo.png"
+            <Image Source="Qupidlogo.png"
                x:Name="qupidLogo"
-               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
                              ElementName=whiteBox,
                              Property=Width,
-                             Factor=0.1,
+                             Factor=0.2,
                              Constant=0}"
                  RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
                              ElementName=whiteBox,
                              Property=Height,
-                             Factor=0.10,
+                             Factor=0.05,
                              Constant=0}"
                  RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView,
                              ElementName=whiteBox,
                              Property=Width,
-                             Factor=0.9,
+                             Factor=0.6,
                              Constant=0}"
                  RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView,
                              ElementName=whiteBox,
                              Property=Height,
-                             Factor=0.55,
-                             Constant=0}"/>
+                             Factor=0.5,
+                             Constant=0}">
 
-        <Label x:Name="userLabel"
-               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
-                             ElementName=qupidLogo,
-                             Property=Width,
-                             Factor=0.15,
-                             Constant=0}"
-                 RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
-                             ElementName=qupidLogo,
+
+            </Image>
+
+            <Entry x:Name="UserName" Placeholder="User ID"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
                              Property=Height,
-                             Factor=1.3,
+                             Factor=0.60,
+                             Constant=0}"
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Width,
+                             Factor=0.05,
                              Constant=0}"
                  RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView,
-                             ElementName=qupidLogo,
+                             ElementName=whiteBox,
                              Property=Width,
                              Factor=0.90,
-                             Constant=0}"
-                 RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView,
-                             ElementName=qupidLogo,
+                             Constant=0}">
+            </Entry>
+            <Entry x:Name="Password" Placeholder="Password" IsPassword="True"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
                              Property=Height,
-                             Factor=0.4,
-                             Constant=0}"> yeet</Label>
+                             Factor=0.7,
+                             Constant=0}"
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Width,
+                             Factor=0.05,
+                             Constant=0}"
+                 RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Width,
+                             Factor=0.90,
+                             Constant=0}">
+            </Entry>
+            <Button x:Name="Login" Text="Login" Clicked="Login_Clicked"  RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Height,
+                             Factor=0.8,
+                             Constant=0}"
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Width,
+                             Factor=0.05,
+                             Constant=0}"
+                 RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Width,
+                             Factor=0.90,
+                             Constant=0}" BackgroundColor="#D9D9D9" FontSize="Large" TextColor="#000000"/>
+        </RelativeLayout>
+
+
+
 
     </RelativeLayout>
 
