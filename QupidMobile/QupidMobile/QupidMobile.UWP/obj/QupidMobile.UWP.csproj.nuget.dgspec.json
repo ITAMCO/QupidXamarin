@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile.UWP\\QupidMobile.UWP.csproj": {}
+    "D:\\GitHubProjects\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile.UWP\\QupidMobile.UWP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile.UWP\\QupidMobile.UWP.csproj": {
+    "D:\\GitHubProjects\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile.UWP\\QupidMobile.UWP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile.UWP\\QupidMobile.UWP.csproj",
+        "projectUniqueName": "D:\\GitHubProjects\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile.UWP\\QupidMobile.UWP.csproj",
         "projectName": "QupidMobile.UWP",
-        "projectPath": "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile.UWP\\QupidMobile.UWP.csproj",
-        "packagesPath": "C:\\Users\\s1peregr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile.UWP\\obj\\",
+        "projectPath": "D:\\GitHubProjects\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile.UWP\\QupidMobile.UWP.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHubProjects\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile.UWP\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\s1peregr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -33,8 +33,8 @@
         "frameworks": {
           "uap10.0.16299": {
             "projectReferences": {
-              "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj": {
-                "projectPath": "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj"
+              "D:\\GitHubProjects\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj": {
+                "projectPath": "D:\\GitHubProjects\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj"
               }
             }
           }
@@ -47,13 +47,29 @@
               "target": "Package",
               "version": "[6.1.9, )"
             },
+            "Microsoft.Net.Http": {
+              "target": "Package",
+              "version": "[2.2.29, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.3.1, )"
+              "version": "[1.5.2, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.4.0.991265, )"
+              "version": "[4.6.0.529-pre3, )"
+            },
+            "ZXing.Net.Mobile": {
+              "target": "Package",
+              "version": "[3.0.0-beta5, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[3.0.0-beta5, )"
             }
           },
           "imports": [
@@ -87,20 +103,20 @@
         }
       }
     },
-    "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj": {
+    "D:\\GitHubProjects\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj",
+        "projectUniqueName": "D:\\GitHubProjects\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj",
         "projectName": "QupidMobile",
-        "projectPath": "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj",
-        "packagesPath": "C:\\Users\\s1peregr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\obj\\",
+        "projectPath": "D:\\GitHubProjects\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHubProjects\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\s1peregr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -125,19 +141,39 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.Net.Http": {
+              "target": "Package",
+              "version": "[2.2.29, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.3.1, )"
+              "version": "[1.5.2, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.4.0.991265, )"
+              "version": "[4.6.0.529-pre3, )"
+            },
+            "ZXing.Net.Mobile": {
+              "target": "Package",
+              "version": "[3.0.0-beta5, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[3.0.0-beta5, )"
             }
           },
           "imports": [
