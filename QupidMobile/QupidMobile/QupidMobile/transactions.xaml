@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="QupidMobile.transactions">
+    <RelativeLayout BackgroundColor="#395A83">
+        <RelativeLayout BackgroundColor="white"
+                 x:Name="whiteBox"
+                 RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=0.05,
+                             Constant=0}"
+                 RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=0.1,
+                             Constant=0}"
+                 RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=0.9,
+                             Constant=0}"
+                 RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=0.8,
+                             Constant=0}">
+            <Label Text="Transactions"  
+                    RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=1,
+                             Constant=0}"
+                   FontSize="Large" 
+                   FontAttributes="Bold" HorizontalOptions="CenterAndExpand" HeightRequest="-1" LineHeight="-1" Scale="2"/>
+            
+            <Button Text="Logout" x:Name="btnLogout" Clicked="btnLogout_Clicked"></Button>
+            <Button Text="Image pic" x:Name="takePic" Clicked="takePic_Clicked" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Height,
+                             Factor=0.7,
+                             Constant=0}"
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Width,
+                             Factor=0.05,
+                             Constant=0}"
+                 RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Width,
+                             Factor=0.90,
+                             Constant=0}"></Button>
+            <Button Text="Scan" x:Name="ScanQRCode" Clicked="ScanQRCode_Clicked" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Height,
+                             Factor=0.8,
+                             Constant=0}"
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Width,
+                             Factor=0.05,
+                             Constant=0}"
+                 RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Width,
+                             Factor=0.90,
+                             Constant=0}"></Button>
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+</ContentPage>
