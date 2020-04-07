@@ -14,7 +14,7 @@
           "Newtonsoft.Json": "12.0.3",
           "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.5.2",
-          "Xamarin.Forms": "4.5.0.530",
+          "Xamarin.Forms": "4.6.0.529-pre3",
           "ZXing.Net.Mobile": "3.0.0-beta5",
           "ZXing.Net.Mobile.Forms": "3.0.0-beta5"
         },
@@ -88,19 +88,19 @@
           }
         }
       },
-      "Xamarin.Forms/4.5.0.530": {
+      "Xamarin.Forms/4.6.0.529-pre3": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.5.0.203"
+            "fileVersion": "4.6.0.352"
           },
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.5.0.203"
+            "fileVersion": "4.6.0.352"
           },
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.5.0.203"
+            "fileVersion": "4.6.0.352"
           }
         }
       },
@@ -122,7 +122,7 @@
       "ZXing.Net.Mobile.Forms/3.0.0-beta5": {
         "dependencies": {
           "Xamarin.Essentials": "1.5.2",
-          "Xamarin.Forms": "4.5.0.530",
+          "Xamarin.Forms": "4.6.0.529-pre3",
           "ZXing.Net.Mobile": "3.0.0-beta5"
         },
         "runtime": {
@@ -203,12 +203,12 @@
       "path": "xamarin.essentials/1.5.2",
       "hashPath": "xamarin.essentials.1.5.2.nupkg.sha512"
     },
-    "Xamarin.Forms/4.5.0.530": {
+    "Xamarin.Forms/4.6.0.529-pre3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ViHc4HlMUQEt3bR+PpDebHRXAuRCg67XC8UJ/JgQ0CJ11CiB35WT+NBJHipr0cGyHxGwoBhTwA/rKbQtIAy7eg==",
-      "path": "xamarin.forms/4.5.0.530",
-      "hashPath": "xamarin.forms.4.5.0.530.nupkg.sha512"
+      "sha512": "sha512-HfzhJhU6LWNkuPXETIqoIzTOZYXl1fZ1YpNtzL/SAyw9PrysD4UitdRpy0IlE/X2sjmvGH95yUqtmIXXG7tSOw==",
+      "path": "xamarin.forms/4.6.0.529-pre3",
+      "hashPath": "xamarin.forms.4.6.0.529-pre3.nupkg.sha512"
     },
     "ZXing.Net.Mobile/3.0.0-beta5": {
       "type": "package",
