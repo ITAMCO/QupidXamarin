@@ -1,0 +1,2 @@
+MainPackage=C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x64\Release\QupidMobile.UWP_1.0.0.0_x64.appx
+SymbolPackage=C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.UWP\obj\x64\Release\Symbols\QupidMobile.UWP_1.0.0.0_x64.appxsym
