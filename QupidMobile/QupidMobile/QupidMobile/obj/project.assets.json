@@ -686,11 +686,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\s1peregr\\source\\repos\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj",
+      "projectUniqueName": "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj",
       "projectName": "QupidMobile",
-      "projectPath": "C:\\Users\\s1peregr\\source\\repos\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj",
+      "projectPath": "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj",
       "packagesPath": "C:\\Users\\s1peregr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\s1peregr\\source\\repos\\QupidMobile\\QupidMobile\\QupidMobile\\obj\\",
+      "outputPath": "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

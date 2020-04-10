@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2qOpjt7nFxTVFYpF/Q1G9LCi6ByxF8s7qYxH4pXAWpsGd1wUe1SAyjJyh2LiOit1tCWpYgvuBdjtYlJjFv65Iw==",
+  "dgSpecHash": "uSvE1eH3ItfF8v5Y1qJ5bdiy8PoWrZrfJX/9/cJeQm8tUeYoG34lgJc8FjRLBbvrwGVKHI4w9Bcf/aYDIlWIag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\s1peregr\\source\\repos\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj",
+  "projectFilePath": "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\s1peregr\\.nuget\\packages\\microsoft.appcenter\\3.1.0\\microsoft.appcenter.3.1.0.nupkg.sha512",
     "C:\\Users\\s1peregr\\.nuget\\packages\\microsoft.appcenter.analytics\\3.1.0\\microsoft.appcenter.analytics.3.1.0.nupkg.sha512",
