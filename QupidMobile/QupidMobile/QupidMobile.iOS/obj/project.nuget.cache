@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "yDOqQb4E+cbfJfFKIU6BEVgepywbvAeMZwHXZKTm7ZMNvEVlWlIfZhnGLYZV3ruDcy4iJc8eyvNaAPWRbujQ2Q==",
+  "dgSpecHash": "3MDiDq17PWTVxBOZwT2ZFKNSCjlVqaOIv2y3hCYeNmI3hhwMTRpeF1g18aERaF/8OPbvL+fwH3VGF1gmSQy6ww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile.iOS\\QupidMobile.iOS.csproj",
+  "projectFilePath": "D:\\GitHubProjects\\QupidXamarin\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile.iOS\\QupidMobile.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\s1peregr\\.nuget\\packages\\microsoft.appcenter\\3.1.0\\microsoft.appcenter.3.1.0.nupkg.sha512",
-    "C:\\Users\\s1peregr\\.nuget\\packages\\microsoft.appcenter.analytics\\3.1.0\\microsoft.appcenter.analytics.3.1.0.nupkg.sha512",
-    "C:\\Users\\s1peregr\\.nuget\\packages\\microsoft.appcenter.crashes\\3.1.0\\microsoft.appcenter.crashes.3.1.0.nupkg.sha512",
-    "C:\\Users\\s1peregr\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512",
-    "C:\\Users\\s1peregr\\.nuget\\packages\\xamarin.forms\\4.5.0.530\\xamarin.forms.4.5.0.530.nupkg.sha512"
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.appcenter\\3.1.0\\microsoft.appcenter.3.1.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.appcenter.analytics\\3.1.0\\microsoft.appcenter.analytics.3.1.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.appcenter.crashes\\3.1.0\\microsoft.appcenter.crashes.3.1.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\xamarin.forms\\4.5.0.356\\xamarin.forms.4.5.0.356.nupkg.sha512"
   ],
   "logs": []
 }

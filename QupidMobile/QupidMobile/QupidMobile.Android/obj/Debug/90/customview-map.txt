@@ -2,6 +2,8 @@
 @string/appbar_scrolling_view_behavior;C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
 @string/appbar_scrolling_view_behavior;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
 @string/appbar_scrolling_view_behavior;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
+@string/appbar_scrolling_view_behavior;D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
+@string/appbar_scrolling_view_behavior;D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
 alpha;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromleft.xml
@@ -12,6 +14,9 @@ android.support.design.widget.AppBarLayout;C:\Users\s1peregr\Documents\GitHub\Qu
 android.support.design.widget.AppBarLayout;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
 android.support.design.widget.AppBarLayout;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
 android.support.design.widget.AppBarLayout;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\shellcontent.xml
+android.support.design.widget.AppBarLayout;D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
+android.support.design.widget.AppBarLayout;D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
+android.support.design.widget.AppBarLayout;D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\shellcontent.xml
 android.support.design.widget.BottomNavigationView;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\bottomtablayout.xml
 android.support.design.widget.CoordinatorLayout;C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
 android.support.design.widget.CoordinatorLayout;C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
@@ -19,15 +24,22 @@ android.support.design.widget.CoordinatorLayout;C:\Users\s1peregr\Documents\GitH
 android.support.design.widget.CoordinatorLayout;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
 android.support.design.widget.CoordinatorLayout;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
 android.support.design.widget.CoordinatorLayout;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\shellcontent.xml
+android.support.design.widget.CoordinatorLayout;D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
+android.support.design.widget.CoordinatorLayout;D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
+android.support.design.widget.CoordinatorLayout;D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\shellcontent.xml
 android.support.design.widget.TabLayout;C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
 android.support.design.widget.TabLayout;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
+android.support.design.widget.TabLayout;D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
 android.support.design.widget.TabLayout;obj\Debug\90\res\layout\tabbar.xml
 android.support.v7.widget.RecyclerView;C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
 android.support.v7.widget.RecyclerView;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
+android.support.v7.widget.RecyclerView;D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
 android.support.v7.widget.Toolbar;C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
 android.support.v7.widget.Toolbar;C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\shellcontent.xml
 android.support.v7.widget.Toolbar;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
 android.support.v7.widget.Toolbar;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\shellcontent.xml
+android.support.v7.widget.Toolbar;D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
+android.support.v7.widget.Toolbar;D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\shellcontent.xml
 android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\toolbar.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
@@ -40,6 +52,7 @@ foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
 FrameLayout;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\bottomtablayout.xml
 item;C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
 item;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
+item;D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
 item;obj\Debug\90\res\values\styles.xml
 LinearLayout;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\bottomtablayout.xml
 paths;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
@@ -48,6 +61,7 @@ resources;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.And
 resources;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\42\jl\res\values\strings.xml
 resources;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\44\jl\res\values\strings.xml
 resources;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\46\jl\res\values\strings.xml
+resources;D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
 resources;obj\Debug\90\res\values\colors.xml
 resources;obj\Debug\90\res\values\styles.xml
 set;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromleft.xml
@@ -56,6 +70,7 @@ set;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\o
 set;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\anim\exittoright.xml
 style;C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
 style;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
+style;D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
 style;obj\Debug\90\res\values\styles.xml
 translate;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromleft.xml
 translate;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromright.xml
@@ -63,3 +78,4 @@ translate;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.And
 translate;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\anim\exittoright.xml
 xamarin.forms.platform.android.appcompat.FormsViewPager;C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
 xamarin.forms.platform.android.appcompat.FormsViewPager;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
+xamarin.forms.platform.android.appcompat.FormsViewPager;D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml

@@ -65,7 +65,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.5.0.530, )"
+              "version": "[4.5.0.356, )"
             }
           },
           "imports": [
@@ -161,7 +161,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.5.0.530, )"
+              "version": "[4.5.0.356, )"
             }
           },
           "imports": [
