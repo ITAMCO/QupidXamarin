@@ -21,9 +21,8 @@ namespace QupidMobile
     {
         public MainPage()
         {
-            //checkifLoggedIn();
+            checkifLoggedIn();
             InitializeComponent();
-            DisplayAlert("Qupid", "Did you want to restart Qupid so the designer works?", "yeet");
         }
         private async void checkifLoggedIn()
         {
