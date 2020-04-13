@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile.iOS\\QupidMobile.iOS.csproj": {}
+    "D:\\GitHubProjects\\QupidXamarin\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile.iOS\\QupidMobile.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile.iOS\\QupidMobile.iOS.csproj": {
+    "D:\\GitHubProjects\\QupidXamarin\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile.iOS\\QupidMobile.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile.iOS\\QupidMobile.iOS.csproj",
+        "projectUniqueName": "D:\\GitHubProjects\\QupidXamarin\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile.iOS\\QupidMobile.iOS.csproj",
         "projectName": "QupidMobile.iOS",
-        "projectPath": "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile.iOS\\QupidMobile.iOS.csproj",
-        "packagesPath": "C:\\Users\\s1peregr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile.iOS\\obj\\",
+        "projectPath": "D:\\GitHubProjects\\QupidXamarin\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile.iOS\\QupidMobile.iOS.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHubProjects\\QupidXamarin\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\s1peregr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj": {
-                "projectPath": "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj"
+              "D:\\GitHubProjects\\QupidXamarin\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj": {
+                "projectPath": "D:\\GitHubProjects\\QupidXamarin\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj"
               }
             }
           }
@@ -97,20 +97,20 @@
         }
       }
     },
-    "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj": {
+    "D:\\GitHubProjects\\QupidXamarin\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj",
+        "projectUniqueName": "D:\\GitHubProjects\\QupidXamarin\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj",
         "projectName": "QupidMobile",
-        "projectPath": "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj",
-        "packagesPath": "C:\\Users\\s1peregr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s1peregr\\Documents\\GitHub\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\obj\\",
+        "projectPath": "D:\\GitHubProjects\\QupidXamarin\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\QupidMobile.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHubProjects\\QupidXamarin\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\s1peregr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
