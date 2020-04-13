@@ -41,7 +41,7 @@
                              Property=Width,
                              Factor=0.7,
                              Constant=0}"></Label>
-            <Entry x:Name="Part"
+            <Entry x:Name="SerialLot"
                 RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
                              ElementName=whiteBox,
                              Property=Height,
@@ -57,7 +57,7 @@
                              Property=Width,
                              Factor=0.7,
                              Constant=0}"></Entry>
-            <Entry x:Name="serialLot"
+            <Entry x:Name="moID"
                 RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
                              ElementName=whiteBox,
                              Property=Height,
@@ -73,7 +73,7 @@
                              Property=Width,
                              Factor=0.7,
                              Constant=0}"></Entry>
-            <Entry x:Name="serialLot"
+            <Entry x:Name="opID"
                 RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
                              ElementName=whiteBox,
                              Property=Height,
@@ -93,7 +93,7 @@
 
 
 
-            <Entry x:Name="serialLot"
+            <Entry x:Name="eid"
                 RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
                              ElementName=whiteBox,
                              Property=Height,
@@ -109,7 +109,7 @@
                              Property=Width,
                              Factor=0.7,
                              Constant=0}"></Entry>
-            <Entry x:Name="serialLot"
+            <Entry x:Name="machine"
                 RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
                              ElementName=whiteBox,
                              Property=Height,
