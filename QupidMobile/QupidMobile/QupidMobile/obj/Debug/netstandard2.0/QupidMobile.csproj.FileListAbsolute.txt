@@ -40,3 +40,7 @@ D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\
 D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\transactions.xaml.g.cs
 D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\QupidMobile.csproj.CoreCompileInputs.cache
 D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\MasterDetailPage1.xaml.g.cs
+C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\MasterDetailPage1Detail.xaml.g.cs
+C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\MasterDetailPage1Master.xaml.g.cs
+C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\transactions.xaml.g.cs

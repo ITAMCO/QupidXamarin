@@ -49,6 +49,8 @@ external-cache-path;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\Qupid
 external-path;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
+FrameLayout;C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\48\jl\res\layout\zxingscanneractivitylayout.xml
+FrameLayout;C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\48\jl\res\layout\zxingscannerfragmentlayout.xml
 FrameLayout;C:\Users\s1peregr\source\repos\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\39\jl\res\layout\bottomtablayout.xml
 FrameLayout;D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\48\jl\res\layout\zxingscanneractivitylayout.xml
 FrameLayout;D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.Android\obj\Debug\90\lp\48\jl\res\layout\zxingscannerfragmentlayout.xml

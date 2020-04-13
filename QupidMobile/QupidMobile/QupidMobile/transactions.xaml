@@ -4,7 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="QupidMobile.transactions">
+             x:Class="QupidMobile.transactions"
+             Title="Transactions">
     <RelativeLayout BackgroundColor="#395A83">
         <RelativeLayout BackgroundColor="white"
                  x:Name="whiteBox"

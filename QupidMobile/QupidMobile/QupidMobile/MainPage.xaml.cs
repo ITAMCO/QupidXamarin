@@ -30,7 +30,7 @@ namespace QupidMobile
             var userID = await SecureStorage.GetAsync("user_id");
             if (userID != "" && userID != null)
             {
-                Navigation.PushModalAsync(new transactions());
+                Navigation.PushModalAsync(new MasterDetailPage1());
             }
         }
         private void Login_Clicked(object sender, EventArgs e)
@@ -66,7 +66,7 @@ namespace QupidMobile
                 user.fullName = o["FullName"].ToString();
                 SecureStorage.SetAsync("user_id", o["FullName"].ToString());
                 Application.Current.SavePropertiesAsync();
-                Navigation.PushModalAsync(new transactions());
+                Navigation.PushModalAsync(new MasterDetailPage1());
             }
 
         }
