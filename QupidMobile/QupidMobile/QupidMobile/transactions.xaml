@@ -25,49 +25,122 @@
                              Property=Height,
                              Factor=0.8,
                              Constant=0}">
-            <Label Text="Transactions"  
-                    RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=1,
-                             Constant=0}"
-                   FontSize="Large" 
-                   FontAttributes="Bold" HorizontalOptions="CenterAndExpand" HeightRequest="-1" LineHeight="-1" Scale="2"/>
-
-            <Button Text="Logout" x:Name="btnLogout" Clicked="btnLogout_Clicked"></Button>
-            <Button Text="Image pic" x:Name="takePic" Clicked="takePic_Clicked" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
+            <Label Text="Item ID"
+                   RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
                              ElementName=whiteBox,
                              Property=Height,
+                             Factor=0.11,
+                             Constant=0}"
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Width,
+                             Factor=0.05,
+                             Constant=0}"
+                 RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Width,
                              Factor=0.7,
-                             Constant=0}"
-                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
-                             ElementName=whiteBox,
-                             Property=Width,
-                             Factor=0.05,
-                             Constant=0}"
-                 RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView,
-                             ElementName=whiteBox,
-                             Property=Width,
-                             Factor=0.90,
-                             Constant=0}"></Button>
-            <Button Text="Scan" x:Name="ScanQRCode" Clicked="ScanQRCode_Clicked" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
+                             Constant=0}"></Label>
+            <Entry x:Name="Part"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
                              ElementName=whiteBox,
                              Property=Height,
-                             Factor=0.8,
+                             Factor=0.1,
                              Constant=0}"
                 RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
                              ElementName=whiteBox,
                              Property=Width,
-                             Factor=0.05,
+                             Factor=0.25,
                              Constant=0}"
                  RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView,
                              ElementName=whiteBox,
                              Property=Width,
-                             Factor=0.90,
-                             Constant=0}"></Button>
+                             Factor=0.7,
+                             Constant=0}"></Entry>
+            <Entry x:Name="serialLot"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Height,
+                             Factor=0.2,
+                             Constant=0}"
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Width,
+                             Factor=0.25,
+                             Constant=0}"
+                 RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Width,
+                             Factor=0.7,
+                             Constant=0}"></Entry>
+            <Entry x:Name="serialLot"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Height,
+                             Factor=0.2,
+                             Constant=0}"
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Width,
+                             Factor=0.25,
+                             Constant=0}"
+                 RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Width,
+                             Factor=0.7,
+                             Constant=0}"></Entry>
 
 
 
 
+            <Entry x:Name="serialLot"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Height,
+                             Factor=0.3,
+                             Constant=0}"
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Width,
+                             Factor=0.25,
+                             Constant=0}"
+                 RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Width,
+                             Factor=0.7,
+                             Constant=0}"></Entry>
+            <Entry x:Name="serialLot"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Height,
+                             Factor=0.4,
+                             Constant=0}"
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Width,
+                             Factor=0.25,
+                             Constant=0}"
+                 RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Width,
+                             Factor=0.7,
+                             Constant=0}"></Entry>
+            <Entry x:Name="serialLot"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Height,
+                             Factor=0.5,
+                             Constant=0}"
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Width,
+                             Factor=0.25,
+                             Constant=0}"
+                 RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Width,
+                             Factor=0.7,
+                             Constant=0}"></Entry>
         </RelativeLayout>
     </RelativeLayout>
 </ContentPage>
