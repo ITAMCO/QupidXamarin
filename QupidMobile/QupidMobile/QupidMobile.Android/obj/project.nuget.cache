@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "3+Ti7b0EQilxauaBZE2vqyO/Vbtjnl5OadpxRw6mOVlTkQz6IqzSxf/OEmgvCyFcBkcqvn9GgJQqkH0qU+fs8Q==",
+  "dgSpecHash": "WV/rK9BfFTsXzMLKde03qYb/AKZIvelO0VJ/EGqHqVEIwABhqVpb2+h07T4GbDIB3I46kT03JBt/H7hMJa231A==",
   "success": true,
   "projectFilePath": "D:\\GitHubProjects\\QupidXamarin\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile.Android\\QupidMobile.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\fastandroidcamera\\2.0.0\\fastandroidcamera.2.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.appcenter\\3.1.0\\microsoft.appcenter.3.1.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.appcenter.analytics\\3.1.0\\microsoft.appcenter.analytics.3.1.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.appcenter.crashes\\3.1.0\\microsoft.appcenter.crashes.3.1.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.net.http\\4.3.4\\system.net.http.4.3.4.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.lifecycle.common\\1.1.1.3\\xamarin.android.arch.lifecycle.common.1.1.1.3.nupkg.sha512",
@@ -45,7 +49,9 @@
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.versionedparcelable\\28.0.0.3\\xamarin.android.support.versionedparcelable.28.0.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.viewpager\\28.0.0.3\\xamarin.android.support.viewpager.28.0.0.3.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\xamarin.forms\\4.5.0.356\\xamarin.forms.4.5.0.356.nupkg.sha512"
+    "C:\\Users\\admin\\.nuget\\packages\\xamarin.forms\\4.5.0.356\\xamarin.forms.4.5.0.356.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\zxing.net.mobile\\3.0.0-beta5\\zxing.net.mobile.3.0.0-beta5.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\zxing.net.mobile.forms\\3.0.0-beta5\\zxing.net.mobile.forms.3.0.0-beta5.nupkg.sha512"
   ],
   "logs": []
 }

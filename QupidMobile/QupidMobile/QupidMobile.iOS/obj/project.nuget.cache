@@ -1,14 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "3MDiDq17PWTVxBOZwT2ZFKNSCjlVqaOIv2y3hCYeNmI3hhwMTRpeF1g18aERaF/8OPbvL+fwH3VGF1gmSQy6ww==",
+  "dgSpecHash": "NMHDhe1z2AUBt2Mui+RP+CUS8F6csbW0PzAr1utN9ItqcEYCfc/4WKfEQoSA3+SMcUz/xh3sGwJC7FVU4+p3tg==",
   "success": true,
   "projectFilePath": "D:\\GitHubProjects\\QupidXamarin\\QupidXamarin\\QupidMobile\\QupidMobile\\QupidMobile.iOS\\QupidMobile.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.appcenter\\3.1.0\\microsoft.appcenter.3.1.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.appcenter.analytics\\3.1.0\\microsoft.appcenter.analytics.3.1.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.appcenter.crashes\\3.1.0\\microsoft.appcenter.crashes.3.1.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.net.http\\4.3.4\\system.net.http.4.3.4.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\xamarin.forms\\4.5.0.356\\xamarin.forms.4.5.0.356.nupkg.sha512"
+    "C:\\Users\\admin\\.nuget\\packages\\xamarin.forms\\4.5.0.356\\xamarin.forms.4.5.0.356.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\zxing.net.mobile\\3.0.0-beta5\\zxing.net.mobile.3.0.0-beta5.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\zxing.net.mobile.forms\\3.0.0-beta5\\zxing.net.mobile.forms.3.0.0-beta5.nupkg.sha512"
   ],
   "logs": []
 }

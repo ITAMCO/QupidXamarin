@@ -41,6 +41,52 @@
           "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Net.Http/4.3.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.6/System.Net.Http.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netstandard1.3/System.Net.Http.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Xam.Plugin.Media/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Media.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.2": {
         "type": "package",
         "frameworkAssemblies": [
@@ -177,6 +223,34 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "ZXing.Net.Mobile/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.1"
+        },
+        "compile": {
+          "lib/xamarinios10/ZXingNetMobile.dll": {},
+          "lib/xamarinios10/zxing.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ZXingNetMobile.dll": {},
+          "lib/xamarinios10/zxing.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.1",
+          "Xamarin.Forms": "4.5.0.356",
+          "ZXing.Net.Mobile": "3.0.0-beta5"
+        },
+        "compile": {
+          "lib/xamarinios10/ZXing.Net.Mobile.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ZXing.Net.Mobile.Forms.dll": {}
+        }
+      },
       "QupidMobile/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -184,8 +258,13 @@
           "Microsoft.AppCenter": "3.1.0",
           "Microsoft.AppCenter.Analytics": "3.1.0",
           "Microsoft.AppCenter.Crashes": "3.1.0",
+          "Newtonsoft.Json": "12.0.3",
+          "System.Net.Http": "4.3.4",
+          "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.5.2",
-          "Xamarin.Forms": "4.5.0.356"
+          "Xamarin.Forms": "4.5.0.356",
+          "ZXing.Net.Mobile": "3.0.0-beta5",
+          "ZXing.Net.Mobile.Forms": "3.0.0-beta5"
         },
         "compile": {
           "bin/placeholder/QupidMobile.dll": {}
@@ -235,6 +314,42 @@
           "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Net.Http/4.3.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard1.3/System.Net.Http.dll": {}
+        }
+      },
+      "Xam.Plugin.Media/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Media.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.2": {
         "type": "package",
         "frameworkAssemblies": [
@@ -371,6 +486,34 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "ZXing.Net.Mobile/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.1"
+        },
+        "compile": {
+          "lib/xamarinios10/ZXingNetMobile.dll": {},
+          "lib/xamarinios10/zxing.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ZXingNetMobile.dll": {},
+          "lib/xamarinios10/zxing.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.1",
+          "Xamarin.Forms": "4.5.0.356",
+          "ZXing.Net.Mobile": "3.0.0-beta5"
+        },
+        "compile": {
+          "lib/xamarinios10/ZXing.Net.Mobile.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ZXing.Net.Mobile.Forms.dll": {}
+        }
+      },
       "QupidMobile/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -378,8 +521,13 @@
           "Microsoft.AppCenter": "3.1.0",
           "Microsoft.AppCenter.Analytics": "3.1.0",
           "Microsoft.AppCenter.Crashes": "3.1.0",
+          "Newtonsoft.Json": "12.0.3",
+          "System.Net.Http": "4.3.4",
+          "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.5.2",
-          "Xamarin.Forms": "4.5.0.356"
+          "Xamarin.Forms": "4.5.0.356",
+          "ZXing.Net.Mobile": "3.0.0-beta5",
+          "ZXing.Net.Mobile.Forms": "3.0.0-beta5"
         },
         "compile": {
           "bin/placeholder/QupidMobile.dll": {}
@@ -429,6 +577,42 @@
           "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Net.Http/4.3.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "Xam.Plugin.Media/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Media.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.2": {
         "type": "package",
         "frameworkAssemblies": [
@@ -565,6 +749,34 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "ZXing.Net.Mobile/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.1"
+        },
+        "compile": {
+          "lib/xamarinios10/ZXingNetMobile.dll": {},
+          "lib/xamarinios10/zxing.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ZXingNetMobile.dll": {},
+          "lib/xamarinios10/zxing.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.1",
+          "Xamarin.Forms": "4.5.0.356",
+          "ZXing.Net.Mobile": "3.0.0-beta5"
+        },
+        "compile": {
+          "lib/xamarinios10/ZXing.Net.Mobile.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ZXing.Net.Mobile.Forms.dll": {}
+        }
+      },
       "QupidMobile/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -572,8 +784,13 @@
           "Microsoft.AppCenter": "3.1.0",
           "Microsoft.AppCenter.Analytics": "3.1.0",
           "Microsoft.AppCenter.Crashes": "3.1.0",
+          "Newtonsoft.Json": "12.0.3",
+          "System.Net.Http": "4.3.4",
+          "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.5.2",
-          "Xamarin.Forms": "4.5.0.356"
+          "Xamarin.Forms": "4.5.0.356",
+          "ZXing.Net.Mobile": "3.0.0-beta5",
+          "ZXing.Net.Mobile.Forms": "3.0.0-beta5"
         },
         "compile": {
           "bin/placeholder/QupidMobile.dll": {}
@@ -623,6 +840,42 @@
           "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Net.Http/4.3.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "Xam.Plugin.Media/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Media.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.2": {
         "type": "package",
         "frameworkAssemblies": [
@@ -759,6 +1012,34 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "ZXing.Net.Mobile/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.1"
+        },
+        "compile": {
+          "lib/xamarinios10/ZXingNetMobile.dll": {},
+          "lib/xamarinios10/zxing.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ZXingNetMobile.dll": {},
+          "lib/xamarinios10/zxing.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.1",
+          "Xamarin.Forms": "4.5.0.356",
+          "ZXing.Net.Mobile": "3.0.0-beta5"
+        },
+        "compile": {
+          "lib/xamarinios10/ZXing.Net.Mobile.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ZXing.Net.Mobile.Forms.dll": {}
+        }
+      },
       "QupidMobile/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -766,8 +1047,13 @@
           "Microsoft.AppCenter": "3.1.0",
           "Microsoft.AppCenter.Analytics": "3.1.0",
           "Microsoft.AppCenter.Crashes": "3.1.0",
+          "Newtonsoft.Json": "12.0.3",
+          "System.Net.Http": "4.3.4",
+          "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.5.2",
-          "Xamarin.Forms": "4.5.0.356"
+          "Xamarin.Forms": "4.5.0.356",
+          "ZXing.Net.Mobile": "3.0.0-beta5",
+          "ZXing.Net.Mobile.Forms": "3.0.0-beta5"
         },
         "compile": {
           "bin/placeholder/QupidMobile.dll": {}
@@ -852,6 +1138,119 @@
         "lib/uap10.0/Microsoft.AppCenter.Crashes.xml",
         "microsoft.appcenter.crashes.3.1.0.nupkg.sha512",
         "microsoft.appcenter.crashes.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "System.Net.Http/4.3.4": {
+      "sha512": "aOa2d51SEbmM+H+Csw7yJOuNZoHkrP2XnAurye5HWYgGVVU54YZDvsLUYRv6h18X3sPnjNCANmN7ZhIPiqMcjA==",
+      "type": "package",
+      "path": "system.net.http/4.3.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/Xamarinmac20/_._",
+        "lib/monoandroid10/_._",
+        "lib/monotouch10/_._",
+        "lib/net45/_._",
+        "lib/net46/System.Net.Http.dll",
+        "lib/portable-net45+win8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/Xamarinmac20/_._",
+        "ref/monoandroid10/_._",
+        "ref/monotouch10/_._",
+        "ref/net45/_._",
+        "ref/net46/System.Net.Http.dll",
+        "ref/netcore50/System.Net.Http.dll",
+        "ref/netstandard1.1/System.Net.Http.dll",
+        "ref/netstandard1.3/System.Net.Http.dll",
+        "ref/portable-net45+win8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netstandard1.6/System.Net.Http.dll",
+        "runtimes/win/lib/net46/System.Net.Http.dll",
+        "runtimes/win/lib/netcore50/System.Net.Http.dll",
+        "runtimes/win/lib/netstandard1.3/System.Net.Http.dll",
+        "system.net.http.4.3.4.nupkg.sha512",
+        "system.net.http.nuspec"
+      ]
+    },
+    "Xam.Plugin.Media/5.0.1": {
+      "sha512": "UUR31EEnhDVa4IXgVfQIAL3u9v6YAyppsb5UlO9MNJ4quGGkfcWX++JexjB1nMGqvCzsjAT2t32drKDIXoW4SQ==",
+      "type": "package",
+      "path": "xam.plugin.media/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid10.0/Plugin.Media.dll",
+        "lib/monoandroid10.0/Plugin.Media.pdb",
+        "lib/monoandroid10.0/Plugin.Media.xml",
+        "lib/monoandroid80/Plugin.Media.dll",
+        "lib/monoandroid80/Plugin.Media.pdb",
+        "lib/monoandroid80/Plugin.Media.xml",
+        "lib/monoandroid81/Plugin.Media.dll",
+        "lib/monoandroid81/Plugin.Media.pdb",
+        "lib/monoandroid81/Plugin.Media.xml",
+        "lib/monoandroid90/Plugin.Media.dll",
+        "lib/monoandroid90/Plugin.Media.pdb",
+        "lib/monoandroid90/Plugin.Media.xml",
+        "lib/netstandard1.0/Plugin.Media.dll",
+        "lib/netstandard1.0/Plugin.Media.pdb",
+        "lib/netstandard1.0/Plugin.Media.xml",
+        "lib/netstandard2.0/Plugin.Media.dll",
+        "lib/netstandard2.0/Plugin.Media.pdb",
+        "lib/netstandard2.0/Plugin.Media.xml",
+        "lib/tizen40/Plugin.Media.dll",
+        "lib/tizen40/Plugin.Media.pdb",
+        "lib/tizen40/Plugin.Media.xml",
+        "lib/uap10.0.16299/Plugin.Media.dll",
+        "lib/uap10.0.16299/Plugin.Media.pdb",
+        "lib/uap10.0.16299/Plugin.Media.pri",
+        "lib/uap10.0.16299/Plugin.Media.xml",
+        "lib/xamarinios10/Plugin.Media.dll",
+        "lib/xamarinios10/Plugin.Media.pdb",
+        "lib/xamarinios10/Plugin.Media.xml",
+        "readme.txt",
+        "xam.plugin.media.5.0.1.nupkg.sha512",
+        "xam.plugin.media.nuspec"
       ]
     },
     "Xamarin.Essentials/1.5.2": {
@@ -1184,6 +1583,69 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "ZXing.Net.Mobile/3.0.0-beta5": {
+      "sha512": "xlRphSYEiCc62vIcaX22z46kLnyLVqzYXuUk1aOtvtn8ZOLfQPuS43p73B1c/VLNnDbwrvZ+LhN2MGoxU+lWBg==",
+      "type": "package",
+      "path": "zxing.net.mobile/3.0.0-beta5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/monoandroid10.0/ZXingNetMobile.dll",
+        "lib/monoandroid10.0/ZXingNetMobile.pdb",
+        "lib/monoandroid10.0/zxing.dll",
+        "lib/monoandroid90/ZXingNetMobile.dll",
+        "lib/monoandroid90/ZXingNetMobile.pdb",
+        "lib/monoandroid90/zxing.dll",
+        "lib/netstandard2.0/ZXingNetMobile.dll",
+        "lib/netstandard2.0/ZXingNetMobile.pdb",
+        "lib/netstandard2.0/zxing.dll",
+        "lib/tizen40/ZXingNetMobile.dll",
+        "lib/tizen40/ZXingNetMobile.pdb",
+        "lib/tizen40/zxing.dll",
+        "lib/uap10.0.16299/ZXingNetMobile.dll",
+        "lib/uap10.0.16299/ZXingNetMobile.pdb",
+        "lib/uap10.0.16299/ZXingNetMobile.pri",
+        "lib/uap10.0.16299/ZXingNetMobile/ScanPage.xaml",
+        "lib/uap10.0.16299/ZXingNetMobile/ZXingNetMobile.xr.xml",
+        "lib/uap10.0.16299/ZXingNetMobile/ZXingScannerControl.xaml",
+        "lib/uap10.0.16299/zxing.dll",
+        "lib/xamarinios10/ZXingNetMobile.dll",
+        "lib/xamarinios10/ZXingNetMobile.pdb",
+        "lib/xamarinios10/zxing.dll",
+        "lib/xamarinmac20/ZXingNetMobile.dll",
+        "lib/xamarinmac20/ZXingNetMobile.pdb",
+        "lib/xamarinmac20/zxing.dll",
+        "zxing.net.mobile.3.0.0-beta5.nupkg.sha512",
+        "zxing.net.mobile.nuspec"
+      ]
+    },
+    "ZXing.Net.Mobile.Forms/3.0.0-beta5": {
+      "sha512": "T7V68m6c19KIjZnr59V9VxD6MW/r9VMrd5QD+JJPPEsedszFDAu0w7MkwxJHOsarHef6rTRBBHFrLe+QWDOG0w==",
+      "type": "package",
+      "path": "zxing.net.mobile.forms/3.0.0-beta5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/monoandroid10.0/ZXing.Net.Mobile.Forms.dll",
+        "lib/monoandroid10.0/ZXing.Net.Mobile.Forms.pdb",
+        "lib/monoandroid90/ZXing.Net.Mobile.Forms.dll",
+        "lib/monoandroid90/ZXing.Net.Mobile.Forms.pdb",
+        "lib/netstandard2.0/ZXing.Net.Mobile.Forms.dll",
+        "lib/netstandard2.0/ZXing.Net.Mobile.Forms.pdb",
+        "lib/tizen40/ZXing.Net.Mobile.Forms.dll",
+        "lib/tizen40/ZXing.Net.Mobile.Forms.pdb",
+        "lib/uap10.0.16299/ZXing.Net.Mobile.Forms.dll",
+        "lib/uap10.0.16299/ZXing.Net.Mobile.Forms.pdb",
+        "lib/xamarinios10/ZXing.Net.Mobile.Forms.dll",
+        "lib/xamarinios10/ZXing.Net.Mobile.Forms.pdb",
+        "lib/xamarinmac20/ZXing.Net.Mobile.Forms.dll",
+        "lib/xamarinmac20/ZXing.Net.Mobile.Forms.pdb",
+        "zxing.net.mobile.forms.3.0.0-beta5.nupkg.sha512",
+        "zxing.net.mobile.forms.nuspec"
+      ]
+    },
     "QupidMobile/1.0.0": {
       "type": "project",
       "path": "../QupidMobile/QupidMobile.csproj",
@@ -1195,9 +1657,14 @@
       "Microsoft.AppCenter >= 3.1.0",
       "Microsoft.AppCenter.Analytics >= 3.1.0",
       "Microsoft.AppCenter.Crashes >= 3.1.0",
+      "Newtonsoft.Json >= 12.0.3",
       "QupidMobile >= 1.0.0",
+      "System.Net.Http >= 4.3.4",
+      "Xam.Plugin.Media >= 5.0.1",
       "Xamarin.Essentials >= 1.5.2",
-      "Xamarin.Forms >= 4.5.0.356"
+      "Xamarin.Forms >= 4.5.0.356",
+      "ZXing.Net.Mobile >= 3.0.0-beta5",
+      "ZXing.Net.Mobile.Forms >= 3.0.0-beta5"
     ]
   },
   "packageFolders": {
@@ -1254,6 +1721,18 @@
             "target": "Package",
             "version": "[3.1.0, )"
           },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
+          },
+          "System.Net.Http": {
+            "target": "Package",
+            "version": "[4.3.4, )"
+          },
+          "Xam.Plugin.Media": {
+            "target": "Package",
+            "version": "[5.0.1, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.5.2, )"
@@ -1261,6 +1740,14 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[4.5.0.356, )"
+          },
+          "ZXing.Net.Mobile": {
+            "target": "Package",
+            "version": "[3.0.0-beta5, )"
+          },
+          "ZXing.Net.Mobile.Forms": {
+            "target": "Package",
+            "version": "[3.0.0-beta5, )"
           }
         }
       }

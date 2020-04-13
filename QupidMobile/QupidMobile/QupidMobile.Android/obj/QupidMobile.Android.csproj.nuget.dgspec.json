@@ -54,6 +54,18 @@
               "target": "Package",
               "version": "[3.1.0, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.5.2, )"
@@ -61,6 +73,14 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.5.0.356, )"
+            },
+            "ZXing.Net.Mobile": {
+              "target": "Package",
+              "version": "[3.0.0-beta5, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[3.0.0-beta5, )"
             }
           }
         }
@@ -122,6 +142,18 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.5.2, )"
@@ -129,6 +161,14 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.5.0.356, )"
+            },
+            "ZXing.Net.Mobile": {
+              "target": "Package",
+              "version": "[3.0.0-beta5, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[3.0.0-beta5, )"
             }
           },
           "imports": [
