@@ -160,4 +160,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\Qupidlogo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\qrcode.png" />
+  </ItemGroup>
 </Project>

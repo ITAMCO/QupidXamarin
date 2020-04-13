@@ -118,3 +118,4 @@ D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.
 D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.iOS\obj\iPhone\Debug\CopyFilesToMac\QupidMobile.iOS.pdb.DebugSymbolsProjectOutputGroupOutput.stamp
 D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.iOS\obj\iPhone\Debug\CopyFilesToMac\Entitlements.plist.NoneOutput.stamp
 D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.iOS\obj\iPhone\Debug\CopyFilesToMac\Info.plist.NoneOutput.stamp
+D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.iOS\obj\iPhone\Debug\optimized\qrcode.png

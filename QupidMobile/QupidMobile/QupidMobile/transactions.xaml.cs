@@ -29,19 +29,30 @@ namespace QupidMobile
         {
             scanQRCode();
         }
-        private async void scanQRCode()
+        private void scanQRCode()
         {
 #if __ANDROID__
 	// Initialize the scanner first so it can track the current context
 	MobileBarcodeScanner.Initialize (Application);
 #endif
-
+            string barcodeMessage;
             var scanner = new ZXing.Mobile.MobileBarcodeScanner();
 
-            var result = await scanner.Scan();
+            //Tell our scanner to use the default overlay
+            scanner.UseCustomOverlay = false;
+            
+            //We can customize the top and bottom text of our default overlay
+            scanner.TopText = "Hold camera up to barcode";
+            scanner.BottomText = "Camera will automatically scan barcode\r\n\r\nPress the 'Back' button to Cancel";
 
-            if (result != null)
-                Debug.WriteLine("Scanned Barcode: " + result.Text);
+            //Start scanning
+            scanner.ScanContinuously(result =>
+            {
+                barcodeMessage = result.Text;
+                Debug.WriteLine("QRCode: " + barcodeMessage);
+                DisplayAlert("QRCode", barcodeMessage, "ok");
+                
+            });
         }
         private async void takePicture()
         {

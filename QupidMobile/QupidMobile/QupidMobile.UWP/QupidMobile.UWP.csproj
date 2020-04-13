@@ -137,6 +137,7 @@
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
     <Content Include="Properties\Default.rd.xml" />
+    <Content Include="qrcode.png" />
     <Content Include="Qupidlogo.png" />
   </ItemGroup>
   <ItemGroup>

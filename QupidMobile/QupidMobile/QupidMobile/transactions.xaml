@@ -25,6 +25,30 @@
                              Property=Height,
                              Factor=0.8,
                              Constant=0}">
+            <ImageButton Source="qrcode.png" Clicked="ScanQRCode_Clicked"
+               x:Name="qr"
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Width,
+                             Factor=0.85,
+                             Constant=0}"
+                 RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Height,
+                             Factor=0.025,
+                             Constant=0}" 
+               RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,
+                             ElementName=whiteBox,
+                             Property=Width,
+                             Factor=0.1,
+                             Constant=0}"
+                 RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=0.05,
+                             Constant=0}" Aspect="AspectFit">
+
+
+            </ImageButton>
             <Label Text="Item ID"
                    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
                              ElementName=whiteBox,
