@@ -17,6 +17,8 @@ namespace QupidMobile
         public transactions()
         {
             InitializeComponent();
+            txtEid.Text = user.eid;
+            txtMachine.Text = "M";
         }
 
         private void btnLogout_Clicked(object sender, EventArgs e)
@@ -29,30 +31,27 @@ namespace QupidMobile
         {
             scanQRCode();
         }
-        private void scanQRCode()
+        private async void scanQRCode()
         {
-#if __ANDROID__
-	// Initialize the scanner first so it can track the current context
-	MobileBarcodeScanner.Initialize (Application);
-#endif
-            string barcodeMessage;
+            #if __ANDROID__
+	            // Initialize the scanner first so it can track the current context
+	            MobileBarcodeScanner.Initialize (Application);
+            #endif      
+
             var scanner = new ZXing.Mobile.MobileBarcodeScanner();
-
-            //Tell our scanner to use the default overlay
-            scanner.UseCustomOverlay = false;
-            
-            //We can customize the top and bottom text of our default overlay
-            scanner.TopText = "Hold camera up to barcode";
-            scanner.BottomText = "Camera will automatically scan barcode\r\n\r\nPress the 'Back' button to Cancel";
-
-            //Start scanning
-            scanner.ScanContinuously(result =>
+            string[] barcodeInfo;
+            var result = await scanner.Scan();
+            if(result != null)
             {
-                barcodeMessage = result.Text;
-                Debug.WriteLine("QRCode: " + barcodeMessage);
-                DisplayAlert("QRCode", barcodeMessage, "ok");
-                
-            });
+                barcodeInfo = result.Text.Split(';');
+                txtItemID.Text = barcodeInfo[0];
+                txtSerialLot.Text = barcodeInfo[1];
+                txtMoID.Text = barcodeInfo[2];
+                txtOPID.Text = barcodeInfo[3];
+                txtItemID.IsEnabled = txtSerialLot.IsEnabled = txtMoID.IsEnabled = txtOPID.IsEnabled = false;
+                txtItemID.BackgroundColor = txtSerialLot.BackgroundColor = txtMoID.BackgroundColor = txtOPID.BackgroundColor = Color.FromHex("#DFDFDF");
+            }
+            
         }
         private async void takePicture()
         {
@@ -88,6 +87,16 @@ namespace QupidMobile
         private void takePic_Clicked(object sender, EventArgs e)
         {
             takePicture();
+        }
+
+        private void btnTransactions_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnViewOpenTransactions_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 }

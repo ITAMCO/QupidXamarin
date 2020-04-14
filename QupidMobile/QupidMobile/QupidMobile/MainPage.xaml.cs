@@ -27,6 +27,9 @@ namespace QupidMobile
         private async void checkifLoggedIn()
         {
             var userID = await SecureStorage.GetAsync("user_id");
+            var eid = await SecureStorage.GetAsync("eid");
+            user.fullName = userID;
+            user.eid = eid;
             if (userID != "" && userID != null)
             {
                 Navigation.PushModalAsync(new MasterDetailPage1());
@@ -64,6 +67,7 @@ namespace QupidMobile
 
                 user.fullName = o["FullName"].ToString();
                 SecureStorage.SetAsync("user_id", o["FullName"].ToString());
+                SecureStorage.SetAsync("eid", o["Eid"].ToString());
                 Application.Current.SavePropertiesAsync();
                 Navigation.PushModalAsync(new MasterDetailPage1());
             }

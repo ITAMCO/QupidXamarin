@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>WKS-E1761A</Machine>
-    <WindowsUser>s1peregr</WindowsUser>
+    <Machine>DESKTOP-QE722NM</Machine>
+    <WindowsUser>admin</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=37deee27-9459-4818-9acc-b3cb781951ea</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>C853BB856DAD81519CDDB1D6F51DF3E3E4EA462D9127295A423C4E34663D0B0B</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>d8801a16-d9ba-4848-8966-0b46e0dac923_1.0.0.0_x86__9dactmg2d2r4p</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>d8801a16-d9ba-4848-8966-0b46e0dac923_9dactmg2d2r4p!App</RegisteredUserModeAppID>
@@ -27,62 +27,62 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-13T20:11:01.689</Modified>
+      <Modified>2020-04-14T15:53:56.329</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\QupidMobile.UWP.exe">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\QupidMobile.UWP.exe">
       <PackagePath>entrypoint\QupidMobile.UWP.exe</PackagePath>
-      <Modified>2020-04-13T19:51:36.208</Modified>
+      <Modified>2020-04-14T15:53:54.605</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\.nuget\packages\microsoft.appcenter\3.1.0\lib\uap10.0\Microsoft.AppCenter.dll">
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\microsoft.appcenter\3.1.0\lib\uap10.0\Microsoft.AppCenter.dll">
       <PackagePath>Microsoft.AppCenter.dll</PackagePath>
       <Modified>2020-03-20T23:35:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\.nuget\packages\microsoft.appcenter.analytics\3.1.0\lib\uap10.0\Microsoft.AppCenter.Analytics.dll">
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\microsoft.appcenter.analytics\3.1.0\lib\uap10.0\Microsoft.AppCenter.Analytics.dll">
       <PackagePath>Microsoft.AppCenter.Analytics.dll</PackagePath>
       <Modified>2020-03-20T23:35:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\.nuget\packages\microsoft.appcenter.crashes\3.1.0\lib\uap10.0\Microsoft.AppCenter.Crashes.dll">
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\microsoft.appcenter.crashes\3.1.0\lib\uap10.0\Microsoft.AppCenter.Crashes.dll">
       <PackagePath>Microsoft.AppCenter.Crashes.dll</PackagePath>
       <Modified>2020-03-20T23:35:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
       <Modified>2019-11-09T05:56:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2020-02-28T00:16:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\.nuget\packages\sqlitepclraw.bundle_green\2.0.2\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\sqlitepclraw.bundle_green\2.0.2\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
       <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
       <Modified>2019-11-01T21:24:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\.nuget\packages\sqlitepclraw.core\2.0.2\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\sqlitepclraw.core\2.0.2\lib\netstandard2.0\SQLitePCLRaw.core.dll">
       <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
       <Modified>2019-11-01T21:23:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.2\runtimes\win10-x86\nativeassets\uap10.0\e_sqlite3.dll">
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.2\runtimes\win10-x86\nativeassets\uap10.0\e_sqlite3.dll">
       <PackagePath>e_sqlite3.dll</PackagePath>
       <Modified>2019-08-15T22:14:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.0.2\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.0.2\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
       <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
       <Modified>2019-11-01T21:23:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\.nuget\packages\system.collections.immutable\1.6.0\lib\netstandard2.0\System.Collections.Immutable.dll">
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\system.collections.immutable\1.6.0\lib\netstandard2.0\System.Collections.Immutable.dll">
       <PackagePath>System.Collections.Immutable.dll</PackagePath>
       <Modified>2019-09-13T06:27:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\.nuget\packages\system.reflection.metadata\1.7.0\lib\netstandard2.0\System.Reflection.Metadata.dll">
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\system.reflection.metadata\1.7.0\lib\netstandard2.0\System.Reflection.Metadata.dll">
       <PackagePath>System.Reflection.Metadata.dll</PackagePath>
       <Modified>2019-09-13T06:28:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
       <Modified>2018-09-18T23:38:10.000</Modified>
     </AppxPackagedFile>
@@ -90,45 +90,45 @@
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2016-11-30T06:58:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\.nuget\packages\xam.plugin.media\5.0.1\lib\uap10.0.16299\Plugin.Media.dll">
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\xam.plugin.media\5.0.1\lib\uap10.0.16299\Plugin.Media.dll">
       <PackagePath>Plugin.Media.dll</PackagePath>
       <Modified>2020-04-01T22:52:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\.nuget\packages\xamarin.essentials\1.5.2\lib\uap10.0.16299\Xamarin.Essentials.dll">
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\xamarin.essentials\1.5.2\lib\uap10.0.16299\Xamarin.Essentials.dll">
       <PackagePath>Xamarin.Essentials.dll</PackagePath>
       <Modified>2020-03-27T21:02:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\.nuget\packages\xamarin.forms\4.5.0.356\lib\uap10.0.16299\Xamarin.Forms.Core.dll">
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\xamarin.forms\4.5.0.356\lib\uap10.0.16299\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
       <Modified>2020-02-26T05:43:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\.nuget\packages\xamarin.forms\4.5.0.356\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP.dll">
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\xamarin.forms\4.5.0.356\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP.dll">
       <PackagePath>Xamarin.Forms.Platform.UAP.dll</PackagePath>
       <Modified>2020-02-26T05:43:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\.nuget\packages\xamarin.forms\4.5.0.356\lib\uap10.0.16299\Xamarin.Forms.Platform.dll">
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\xamarin.forms\4.5.0.356\lib\uap10.0.16299\Xamarin.Forms.Platform.dll">
       <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
       <Modified>2020-02-26T05:43:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\.nuget\packages\xamarin.forms\4.5.0.356\lib\uap10.0.16299\Xamarin.Forms.Xaml.dll">
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\xamarin.forms\4.5.0.356\lib\uap10.0.16299\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2020-02-26T05:43:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\.nuget\packages\zxing.net.mobile\3.0.0-beta5\lib\uap10.0.16299\ZXingNetMobile.dll">
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\zxing.net.mobile\3.0.0-beta5\lib\uap10.0.16299\ZXingNetMobile.dll">
       <PackagePath>ZXingNetMobile.dll</PackagePath>
       <Modified>2020-03-14T08:30:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\.nuget\packages\zxing.net.mobile\3.0.0-beta5\lib\uap10.0.16299\zxing.dll">
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\zxing.net.mobile\3.0.0-beta5\lib\uap10.0.16299\zxing.dll">
       <PackagePath>zxing.dll</PackagePath>
       <Modified>2020-03-14T08:26:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\.nuget\packages\zxing.net.mobile.forms\3.0.0-beta5\lib\uap10.0.16299\ZXing.Net.Mobile.Forms.dll">
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\zxing.net.mobile.forms\3.0.0-beta5\lib\uap10.0.16299\ZXing.Net.Mobile.Forms.dll">
       <PackagePath>ZXing.Net.Mobile.Forms.dll</PackagePath>
       <Modified>2020-03-14T08:31:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\bin\Debug\netstandard2.0\QupidMobile.dll">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\bin\Debug\netstandard2.0\QupidMobile.dll">
       <PackagePath>QupidMobile.dll</PackagePath>
-      <Modified>2020-04-13T20:10:57.576</Modified>
+      <Modified>2020-04-14T15:53:47.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -138,168 +138,168 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T22:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\.nuget\packages\xamarin.forms\4.5.0.356\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\xamarin.forms\4.5.0.356\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2020-02-26T05:43:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\.nuget\packages\zxing.net.mobile\3.0.0-beta5\lib\uap10.0.16299\ZXingNetMobile\ZXingNetMobile.xr.xml">
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\zxing.net.mobile\3.0.0-beta5\lib\uap10.0.16299\ZXingNetMobile\ZXingNetMobile.xr.xml">
       <PackagePath>ZXingNetMobile\ZXingNetMobile.xr.xml</PackagePath>
       <Modified>2020-03-14T08:30:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.571</Modified>
+      <Modified>2020-04-13T19:06:56.635</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.574</Modified>
+      <Modified>2020-04-13T19:06:56.635</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.577</Modified>
+      <Modified>2020-04-13T19:06:56.636</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.579</Modified>
+      <Modified>2020-04-13T19:06:56.636</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.580</Modified>
+      <Modified>2020-04-13T19:06:56.636</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.713</Modified>
+      <Modified>2020-04-13T19:06:56.637</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.716</Modified>
+      <Modified>2020-04-13T19:06:56.637</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.729</Modified>
+      <Modified>2020-04-13T19:06:56.637</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.732</Modified>
+      <Modified>2020-04-13T19:06:56.638</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.734</Modified>
+      <Modified>2020-04-13T19:06:56.639</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.736</Modified>
+      <Modified>2020-04-13T19:06:56.639</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.738</Modified>
+      <Modified>2020-04-13T19:06:56.640</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.740</Modified>
+      <Modified>2020-04-13T19:06:56.640</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.747</Modified>
+      <Modified>2020-04-13T19:06:56.640</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.748</Modified>
+      <Modified>2020-04-13T19:06:56.641</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.753</Modified>
+      <Modified>2020-04-13T19:06:56.641</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.755</Modified>
+      <Modified>2020-04-13T19:06:56.641</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.757</Modified>
+      <Modified>2020-04-13T19:06:56.641</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.758</Modified>
+      <Modified>2020-04-13T19:06:56.642</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.761</Modified>
+      <Modified>2020-04-13T19:06:56.642</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.766</Modified>
+      <Modified>2020-04-13T19:06:56.642</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.770</Modified>
+      <Modified>2020-04-13T19:06:56.643</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.771</Modified>
+      <Modified>2020-04-13T19:06:56.643</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.773</Modified>
+      <Modified>2020-04-13T19:06:56.643</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.775</Modified>
+      <Modified>2020-04-13T19:06:56.644</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.777</Modified>
+      <Modified>2020-04-13T19:06:56.644</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-10T17:27:36.784</Modified>
+      <Modified>2020-04-13T19:06:56.644</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Qupidlogo.png">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Qupidlogo.png">
       <PackagePath>Qupidlogo.png</PackagePath>
-      <Modified>2020-04-13T19:36:34.383</Modified>
+      <Modified>2020-04-13T19:25:51.670</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-04-10T17:27:36.787</Modified>
+      <Modified>2020-04-13T19:06:56.646</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\QupidMobile.UWP.xr.xml">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\QupidMobile.UWP.xr.xml">
       <PackagePath>QupidMobile.UWP.xr.xml</PackagePath>
-      <Modified>2020-04-13T19:51:35.954</Modified>
+      <Modified>2020-04-13T20:16:03.630</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-04-13T20:06:15.414</Modified>
+      <Modified>2020-04-14T15:53:54.446</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-04-13T20:06:15.414</Modified>
+      <Modified>2020-04-14T15:53:54.446</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -309,116 +309,116 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T21:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2019-12-12T07:48:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-04-13T19:53:58.371</Modified>
+      <Modified>2020-04-14T14:18:27.626</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\Core\QupidMobile.UWP.exe">
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\Core\QupidMobile.UWP.exe">
       <PackagePath>QupidMobile.UWP.exe</PackagePath>
-      <Modified>2020-04-13T20:11:01.683</Modified>
+      <Modified>2020-04-14T15:53:56.323</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Users\s1peregr\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.3.appx">
+    <ResolvedSDKReference Include="C:\Users\admin\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.3.appx">
       <Name>Microsoft.UI.Xaml.2.3</Name>
       <Version>2.31912.11002.0</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.3, MinVersion = 2.31912.11002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\s1peregr\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.3.appx</AppxLocation>
+      <AppxLocation>C:\Users\admin\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.3.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\s1peregr\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.3.appx">
+    <ResolvedSDKReference Include="C:\Users\admin\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.3.appx">
       <Name>Microsoft.UI.Xaml.2.3</Name>
       <Version>2.31912.11002.0</Version>
       <Architecture>Win32</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.3, MinVersion = 2.31912.11002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\s1peregr\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.3.appx</AppxLocation>
+      <AppxLocation>C:\Users\admin\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.3.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\s1peregr\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.3.appx">
+    <ResolvedSDKReference Include="C:\Users\admin\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.3.appx">
       <Name>Microsoft.UI.Xaml.2.3</Name>
       <Version>2.31912.11002.0</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.3, MinVersion = 2.31912.11002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\s1peregr\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.3.appx</AppxLocation>
+      <AppxLocation>C:\Users\admin\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.3.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\s1peregr\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.3.appx">
+    <ResolvedSDKReference Include="C:\Users\admin\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.3.appx">
       <Name>Microsoft.UI.Xaml.2.3</Name>
       <Version>2.31912.11002.0</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.3, MinVersion = 2.31912.11002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\s1peregr\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.3.appx</AppxLocation>
+      <AppxLocation>C:\Users\admin\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.3.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\s1peregr\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.3.appx">
+    <ResolvedSDKReference Include="C:\Users\admin\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.3.appx">
       <Name>Microsoft.UI.Xaml.2.3</Name>
       <Version>2.31912.11002.0</Version>
       <Architecture>arm64</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.3, MinVersion = 2.31912.11002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\s1peregr\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.3.appx</AppxLocation>
+      <AppxLocation>C:\Users\admin\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.3.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\s1peregr\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\admin\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\s1peregr\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\admin\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\s1peregr\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\admin\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\s1peregr\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\admin\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\s1peregr\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\admin\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\s1peregr\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\admin\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\s1peregr\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\admin\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.28529.0</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\s1peregr\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\admin\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\s1peregr\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\admin\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.28529.0</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\s1peregr\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\admin\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\s1peregr\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\admin\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.28529.0</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\s1peregr\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\admin\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>

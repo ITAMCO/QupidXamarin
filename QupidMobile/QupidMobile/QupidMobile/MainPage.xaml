@@ -71,7 +71,7 @@
                              Factor=0.90,
                              Constant=0}">
             </Entry>
-            <Entry x:Name="Password" Placeholder="Password" IsPassword="True"
+            <Entry x:Name="Password" Completed="Login_Clicked" Placeholder="Password" IsPassword="True"
                 RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
                              ElementName=whiteBox,
                              Property=Height,

@@ -18,16 +18,6 @@
               <x:String>Page 3</x:String>
               <x:String>Page 4</x:String>
               <x:String>Page 5</x:String>
-                    <x:String>Page 1</x:String>
-                    <x:String>Page 2</x:String>
-                    <x:String>Page 3</x:String>
-                    <x:String>Page 4</x:String>
-                    <x:String>Page 5</x:String>
-                    <x:String>Page 1</x:String>
-                    <x:String>Page 2</x:String>
-                    <x:String>Page 3</x:String>
-                    <x:String>Page 4</x:String>
-                    <x:String>Page 5</x:String>
                 </x:Array>
       </d:ListView.ItemsSource>
       <ListView.Header>
@@ -44,6 +34,7 @@
             <RowDefinition Height="10"/>
           </Grid.RowDefinitions>
           <Label
+              x:Name="txtName"
               Grid.Column="1"
               Grid.Row="0"
               Text="FirstName LastName"

@@ -48,3 +48,4 @@ D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\
 D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\MasterDetailPage1.xaml.g.cs
 D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\MasterDetailPage1Detail.xaml.g.cs
 D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\MasterDetailPage1Master.xaml.g.cs
+D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\openTransactions.xaml.g.cs

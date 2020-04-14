@@ -20,7 +20,7 @@ namespace QupidMobile
         public MasterDetailPage1Master()
         {
             InitializeComponent();
-
+            txtName.Text = user.fullName;
             BindingContext = new MasterDetailPage1MasterViewModel();
             ListView = MenuItemsListView;
         }
@@ -33,11 +33,8 @@ namespace QupidMobile
             {
                 MenuItems = new ObservableCollection<MasterDetailPage1MasterMenuItem>(new[]
                 {
-                    new MasterDetailPage1MasterMenuItem { Id = 0, Title = "Page 1" },
-                    new MasterDetailPage1MasterMenuItem { Id = 1, Title = "Page 2" },
-                    new MasterDetailPage1MasterMenuItem { Id = 2, Title = "Page 3" },
-                    new MasterDetailPage1MasterMenuItem { Id = 3, Title = "Page 4" },
-                    new MasterDetailPage1MasterMenuItem { Id = 4, Title = "Page 5" },
+                    new MasterDetailPage1MasterMenuItem { Id = 1, Title = "Transactions", TargetType = typeof(transactions) },
+                    new MasterDetailPage1MasterMenuItem { Id = 1, Title = "Open Transactions", TargetType = typeof(openTransactions) },
                 });
             }
 
