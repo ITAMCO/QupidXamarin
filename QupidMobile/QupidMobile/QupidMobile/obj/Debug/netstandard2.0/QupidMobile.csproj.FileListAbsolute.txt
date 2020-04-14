@@ -44,8 +44,8 @@ C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMob
 C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\MasterDetailPage1Detail.xaml.g.cs
 C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\MasterDetailPage1Master.xaml.g.cs
 C:\Users\s1peregr\Documents\GitHub\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\transactions.xaml.g.cs
-D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\QupidMobile.csprojAssemblyReference.cache
 D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\MasterDetailPage1.xaml.g.cs
 D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\MasterDetailPage1Detail.xaml.g.cs
 D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\MasterDetailPage1Master.xaml.g.cs
 D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\openTransactions.xaml.g.cs
+D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\QupidMobile.csprojAssemblyReference.cache

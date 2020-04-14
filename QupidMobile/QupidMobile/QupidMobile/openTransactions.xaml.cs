@@ -67,5 +67,11 @@ namespace QupidMobile
             public List<submittedTransaction> openTrans { get; set; }
             
         }
+
+        private void openTransactionsView_Refreshing(object sender, EventArgs e)
+        {
+            getOpenTransactions();
+            return;
+        }
     }
 }

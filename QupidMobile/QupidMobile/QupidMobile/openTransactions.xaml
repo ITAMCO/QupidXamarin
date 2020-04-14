@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="QupidMobile.openTransactions">
     <ContentPage.Content>
-        <ListView x:Name="openTransactionsView">
+        <ListView x:Name="openTransactionsView" IsPullToRefreshEnabled="True" Refreshing="openTransactionsView_Refreshing">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

@@ -1,8 +1,11 @@
-﻿using Plugin.Media;
+﻿using Newtonsoft.Json;
+using Plugin.Media;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
@@ -19,6 +22,7 @@ namespace QupidMobile
             InitializeComponent();
             txtEid.Text = user.eid;
             txtMachine.Text = "M";
+
         }
 
         private void btnLogout_Clicked(object sender, EventArgs e)
@@ -91,12 +95,54 @@ namespace QupidMobile
 
         private void btnTransactions_Clicked(object sender, EventArgs e)
         {
+            submitTransaction();
+        }
+        protected void submitTransaction()
+        {
+            transactionData transaction = new transactionData();
+            transaction.moID = txtMoID.Text.Trim();
+            transaction.opID = txtOPID.Text.Trim();
+            transaction.eid = user.eid.Trim();
+            transaction.machine = txtMachine.Text.Trim();
+            transaction.serialNo = txtSerialLot.Text.Trim();
+            transaction.setup = swSetup.IsEnabled;
+            transaction.rework = swRework.IsEnabled;
+            transaction.quality = swQuality.IsEnabled;
+            var request = HttpWebRequest.Create("http://vsv-qupidweb-01:8410/api/transactions/");
+            request.ContentType = "application/json";
+            request.Method = "POST";
+            using (var streamWriter = new StreamWriter(request.GetRequestStream()))
+            {
+                string json = JsonConvert.SerializeObject(transaction, Formatting.Indented);
 
+                streamWriter.Write(json);
+            }
+            DisplayAlert("", "Submitted Transaction", "ok");
+        }
+        protected void clearFields()
+        {
+            txtItemID.Text = txtMachine.Text = txtMoID.Text = txtOPID.Text = txtSerialLot.Text = "";
         }
 
         private void btnViewOpenTransactions_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new openTransactions());
+        }
+        public class transactionData
+        {
+            public int transID { get; set; }
+            public string moID { get; set; }
+            public string opID { get; set; }
+            public string eid { get; set; }
+            public string machine { get; set; }
+            public int qty { get; set; }
+            public bool setup { get; set; }
+            public bool quality { get; set; }
+            public bool rework { get; set; }
+            public byte? DoneFlag { get; set; }
+            public string serialNo { get; set; }
+            public int overrideSid { get; set; }
+            public string note { get; set; }
         }
     }
 }

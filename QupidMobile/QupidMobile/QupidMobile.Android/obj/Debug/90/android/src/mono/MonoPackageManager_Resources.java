@@ -3,6 +3,7 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "QupidMobile.Android.dll" comes first in this list. */
 		"QupidMobile.Android.dll",
+		"FastAndroidCamera.dll",
 		"FormsViewGroup.dll",
 		"Microsoft.AppCenter.Analytics.Android.Bindings.dll",
 		"Microsoft.AppCenter.Analytics.dll",
@@ -10,6 +11,8 @@ public class MonoPackageManager_Resources {
 		"Microsoft.AppCenter.Crashes.Android.Bindings.dll",
 		"Microsoft.AppCenter.Crashes.dll",
 		"Microsoft.AppCenter.dll",
+		"Newtonsoft.Json.dll",
+		"Plugin.Media.dll",
 		"QupidMobile.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
@@ -53,6 +56,9 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"zxing.dll",
+		"ZXing.Net.Mobile.Forms.dll",
+		"ZXingNetMobile.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

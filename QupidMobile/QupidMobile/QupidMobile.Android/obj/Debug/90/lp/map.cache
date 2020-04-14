@@ -1,4 +1,12 @@
+FastAndroidCamera
 FormsViewGroup
+Microsoft.AppCenter.Analytics.Android.Bindings
+Microsoft.AppCenter.Analytics
+Microsoft.AppCenter.Android.Bindings
+Microsoft.AppCenter.Crashes.Android.Bindings
+Microsoft.AppCenter.Crashes
+Microsoft.AppCenter
+Plugin.Media
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Core.Runtime
 Xamarin.Android.Arch.Lifecycle.Common
@@ -39,13 +47,5 @@ Xamarin.Android.Support.ViewPager
 Xamarin.Essentials
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
-Microsoft.AppCenter.Android.Bindings
-Microsoft.AppCenter
-Microsoft.AppCenter.Crashes.Android.Bindings
-Microsoft.AppCenter.Crashes
-Microsoft.AppCenter.Analytics.Android.Bindings
-Microsoft.AppCenter.Analytics
-FastAndroidCamera
-ZXingNetMobile
 ZXing.Net.Mobile.Forms
-Plugin.Media
+ZXingNetMobile
