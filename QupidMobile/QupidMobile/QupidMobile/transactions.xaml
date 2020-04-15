@@ -48,7 +48,6 @@
 
 
             </ImageButton>
-            <Button Text="logout" x:Name="logout" Clicked="btnLogout_Clicked"></Button>
             <Label Text="Item ID"
                    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
                              ElementName=whiteBox,
