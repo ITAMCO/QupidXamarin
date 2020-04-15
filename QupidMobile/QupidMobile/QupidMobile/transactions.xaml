@@ -14,7 +14,7 @@
                              Constant=0}"
                  RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,
                              Property=Height,
-                             Factor=0,
+                             Factor=0.05,
                              Constant=0}"
                  RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,
                              Property=Width,
@@ -22,7 +22,7 @@
                              Constant=0}"
                  RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,
                              Property=Height,
-                             Factor=1,
+                             Factor=.9,
                              Constant=0}">
             <ImageButton Source="qrcode.png" Clicked="ScanQRCode_Clicked"
                x:Name="qr"
