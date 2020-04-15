@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -86,7 +87,51 @@ namespace QupidMobile
         private void openTransactionsView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             var trans = (submittedTransaction)e.SelectedItem;
+            getAnswer(trans);
+        }
+        protected async void getAnswer(submittedTransaction trans)
+        {
+            var ans = await DisplayAlert("Finish Transaction", "Are you sure you would like finish serial: " + trans.Serial, "Finish", "Cancel");
+            if( ans)
+            {
+                closeTransaction(trans);
+            }
+            else
+            {
+                getOpenTransactions();
+            }
             //popupLoadingView.IsVisible = true;
+        }
+        protected void closeTransaction(submittedTransaction finishtransaction)
+        {
+            transactions.transactionData transaction = new transactions.transactionData();
+            transaction.moID = finishtransaction.mo_id;
+            transaction.opID = finishtransaction.sequence_id;
+            transaction.DoneFlag = 0;
+            transaction.eid = user.eid;
+            transaction.machine = finishtransaction.wc_id;
+            transaction.serialNo = finishtransaction.Serial;
+            transaction.transID = finishtransaction.sid;
+            transaction.setup = Convert.ToBoolean(finishtransaction.setup_flag);
+            transaction.rework = Convert.ToBoolean(finishtransaction.rework_flag);
+            transaction.qty = 0;
+            transaction.note = "";
+            var request = HttpWebRequest.Create("http://vsv-qupidweb-01:8410/api/finishTransaction/");
+            request.ContentType = "application/json";
+            request.Method = "POST";
+            using (var streamWriter = new StreamWriter(request.GetRequestStream()))
+            {
+                string json = JsonConvert.SerializeObject(transaction, Formatting.Indented);
+
+                streamWriter.Write(json);
+            }
+            var httpResponse = (HttpWebResponse)request.GetResponse();
+            using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
+            {
+                var result = streamReader.ReadToEnd();
+
+            }
+            getOpenTransactions();
         }
     }
 }

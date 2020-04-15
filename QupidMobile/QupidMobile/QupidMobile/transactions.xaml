@@ -24,6 +24,23 @@
                              Property=Height,
                              Factor=.9,
                              Constant=0}">
+            <Label Text="Submit Transactions" FontSize="24"
+                   RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Height,
+                             Factor=0.025,
+                             Constant=0}"
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Width,
+                             Factor=0.15,
+                             Constant=0}"
+                 RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=whiteBox,
+                             Property=Width,
+                             Factor=0.7,
+                             Constant=0}">
+            </Label>
             <ImageButton Source="qrcode.png" Clicked="ScanQRCode_Clicked"
                x:Name="qr"
                 RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
