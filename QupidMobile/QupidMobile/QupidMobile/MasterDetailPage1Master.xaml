@@ -31,7 +31,8 @@
             <RowDefinition Height="40"/>
             
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="10"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="10"/>
           </Grid.RowDefinitions>
           <Label
               x:Name="txtName"
@@ -47,6 +48,8 @@
               Text="Qupid Mobile 5.0.0"
               FontSize="12"
               Style="{DynamicResource SubtitleStyle}"/>
+                    <Button Text="Logout" Clicked="Logout_Clicked"  HorizontalOptions="Start" x:Name="Logout" Grid.Column="1"
+              Grid.Row="2"  Style="{DynamicResource SubtitleStyle}"></Button>
                 </Grid>
       </ListView.Header>
       <ListView.ItemTemplate>

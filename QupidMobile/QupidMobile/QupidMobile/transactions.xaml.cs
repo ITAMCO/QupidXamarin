@@ -117,7 +117,14 @@ namespace QupidMobile
 
                 streamWriter.Write(json);
             }
+            var httpResponse = (HttpWebResponse)request.GetResponse();
+            using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
+            {
+                var result = streamReader.ReadToEnd();
+
+            }
             DisplayAlert("", "Submitted Transaction", "ok");
+            clearFields();
         }
         protected void clearFields()
         {

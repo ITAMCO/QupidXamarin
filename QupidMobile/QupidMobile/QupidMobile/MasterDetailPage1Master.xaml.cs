@@ -6,7 +6,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -48,6 +48,12 @@ namespace QupidMobile
                 PropertyChanged.Invoke(this, new PropertyChangedEventArgs(propertyName));
             }
             #endregion
+        }
+
+        private void Logout_Clicked(object sender, EventArgs e)
+        {
+            SecureStorage.Remove("user_id");
+            Navigation.PushModalAsync(new MainPage());
         }
     }
 }

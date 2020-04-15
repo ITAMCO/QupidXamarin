@@ -1,1 +1,0 @@
-D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\QupidMobile.UWP.csproj;x86

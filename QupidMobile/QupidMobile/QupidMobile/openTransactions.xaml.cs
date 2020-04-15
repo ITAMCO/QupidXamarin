@@ -23,15 +23,19 @@ namespace QupidMobile
         }
         public class submittedTransaction
         {
-            public submittedTransaction(string mo, string serial, string op)
-            {
-                moID = mo;
-                serialID = serial;
-                opID = op;
-            }
-            public string moID { get; set; }
-            public string serialID { get; set; }
-            public string opID { get; set; }
+            public int sid { get; set; }
+            public string mo_id { get; set; }
+            public string Serial { get; set; }
+            public string sequence_id { get; set; }
+            public string wc_id { get; set; }
+            public byte? setup_flag { get; set; }
+            public byte? rework_flag { get; set; }
+            public byte? lot_flag { get; set; }
+            public DateTime startDate { get; set; }
+            public string startDateView { get; set; }
+            public DateTime startTime { get; set; }
+            public DateTime Eta { get; set; }
+            public string EtaView { get; set; }
         }
         public void getOpenTransactions()
         {
@@ -57,7 +61,12 @@ namespace QupidMobile
                 for(int i = 0; i< a.Count; i++)
                 {
                     JObject jo = JObject.Parse(a[i].ToString());
-                    trans.openTrans.Add(new submittedTransaction(jo["mo_id"].ToString(), jo["Serial"].ToString(), jo["sequence_id"].ToString()));
+                     
+                    submittedTransaction transactionData = jo.ToObject<submittedTransaction>();
+                    transactionData.startDateView = transactionData.startDate.ToString("MM/dd");
+                    transactionData.startDateView += " " + transactionData.startTime.ToString("hh:mm");
+                    transactionData.EtaView = transactionData.Eta.ToString("MM/dd HH:mm");
+                    trans.openTrans.Add(transactionData);
                 }
                 openTransactionsView.ItemsSource = trans.openTrans;
             }
@@ -71,7 +80,13 @@ namespace QupidMobile
         private void openTransactionsView_Refreshing(object sender, EventArgs e)
         {
             getOpenTransactions();
-            return;
+            openTransactionsView.IsRefreshing = false;
+        }
+
+        private void openTransactionsView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            var trans = (submittedTransaction)e.SelectedItem;
+            //popupLoadingView.IsVisible = true;
         }
     }
 }
