@@ -176,9 +176,17 @@ namespace QupidMobile
                 txtSerialLot.Text = scannedValue[1];
                 txtMoID.Text = scannedValue[2];
                 txtOPID.Text = scannedValue[3];
+                disableTextFields();
+                txtScannedValue.Text = "";
             }
 
 
+        }
+
+        private void clearFields_Clicked(object sender, EventArgs e)
+        {
+            clearFields();
+            enableTextFields();
         }
     }
 }
