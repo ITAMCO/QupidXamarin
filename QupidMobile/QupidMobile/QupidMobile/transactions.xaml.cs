@@ -52,10 +52,20 @@ namespace QupidMobile
                 txtSerialLot.Text = barcodeInfo[1];
                 txtMoID.Text = barcodeInfo[2];
                 txtOPID.Text = barcodeInfo[3];
-                txtItemID.IsEnabled = txtSerialLot.IsEnabled = txtMoID.IsEnabled = txtOPID.IsEnabled = false;
-                txtItemID.BackgroundColor = txtSerialLot.BackgroundColor = txtMoID.BackgroundColor = txtOPID.BackgroundColor = Color.FromHex("#DFDFDF");
+                disableTextFields();
             }
             
+        }
+        protected void disableTextFields()
+        {
+            txtItemID.IsEnabled = txtSerialLot.IsEnabled = txtMoID.IsEnabled = txtOPID.IsEnabled = false;
+            txtItemID.BackgroundColor = txtSerialLot.BackgroundColor = txtMoID.BackgroundColor = txtOPID.BackgroundColor = Color.FromHex("#DFDFDF");
+        }
+        protected void enableTextFields()
+        {
+            txtMachine.Text = "M";
+            txtItemID.IsEnabled = txtSerialLot.IsEnabled = txtMoID.IsEnabled = txtOPID.IsEnabled = true;
+            txtItemID.BackgroundColor = txtSerialLot.BackgroundColor = txtMoID.BackgroundColor = txtOPID.BackgroundColor = Color.White;
         }
         private async void takePicture()
         {
@@ -150,6 +160,25 @@ namespace QupidMobile
             public string serialNo { get; set; }
             public int overrideSid { get; set; }
             public string note { get; set; }
+        }
+
+        private void scanBtn_Clicked(object sender, EventArgs e)
+        {
+            txtScannedValue.Focus();
+        }
+
+        private void txtScannedValue_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            var scannedValue = txtScannedValue.Text.Split(';');
+            if(scannedValue.Length == 4)
+            {
+                txtItemID.Text = scannedValue[0];
+                txtSerialLot.Text = scannedValue[1];
+                txtMoID.Text = scannedValue[2];
+                txtOPID.Text = scannedValue[3];
+            }
+
+
         }
     }
 }

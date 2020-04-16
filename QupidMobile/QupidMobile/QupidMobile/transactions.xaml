@@ -5,7 +5,23 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="QupidMobile.transactions">
-    <RelativeLayout BackgroundColor="#395A83">
+    <RelativeLayout BackgroundColor="#395A83" x:Name="scannedValue">
+        <Entry x:Name="txtScannedValue" TextChanged="txtScannedValue_TextChanged"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=scannedValue,
+                             Property=Height,
+                             Factor=0.1,
+                             Constant=0}"
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=scannedValue,
+                             Property=Width,
+                             Factor=0.25,
+                             Constant=0}"
+                 RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView,
+                             ElementName=scannedValue,
+                             Property=Width,
+                             Factor=0.7,
+                             Constant=0}"></Entry>
         <RelativeLayout BackgroundColor="white"
                  x:Name="whiteBox"
                  RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,
@@ -24,6 +40,7 @@
                              Property=Height,
                              Factor=.9,
                              Constant=0}">
+            <Button Text="Scan" x:Name="scanBtn" Clicked="scanBtn_Clicked"></Button>
             <Label Text="Submit Transactions" FontSize="24"
                    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
                              ElementName=whiteBox,

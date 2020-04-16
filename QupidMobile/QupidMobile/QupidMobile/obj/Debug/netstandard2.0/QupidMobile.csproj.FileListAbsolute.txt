@@ -48,3 +48,4 @@ D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\
 D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\QupidMobile.dll
 D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\ref\QupidMobile.dll
 D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\QupidMobile.pdb
+D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\obj\Debug\netstandard2.0\QupidMobile.csprojAssemblyReference.cache
