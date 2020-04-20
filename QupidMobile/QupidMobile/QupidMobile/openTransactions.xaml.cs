@@ -52,17 +52,17 @@ namespace QupidMobile
                 result = streamReader.ReadToEnd();
 
             }
-            if(result == "")
+            if (result == "")
             {
 
             }
             else
             {
                 JArray a = JArray.Parse(result);
-                for(int i = 0; i< a.Count; i++)
+                for (int i = 0; i < a.Count; i++)
                 {
                     JObject jo = JObject.Parse(a[i].ToString());
-                     
+
                     submittedTransaction transactionData = jo.ToObject<submittedTransaction>();
                     transactionData.startDateView = transactionData.startDate.ToString("MM/dd");
                     transactionData.startDateView += " " + transactionData.startTime.ToString("hh:mm");
@@ -75,7 +75,7 @@ namespace QupidMobile
         public class TransactionsFactory
         {
             public List<submittedTransaction> openTrans { get; set; }
-            
+
         }
 
         private void openTransactionsView_Refreshing(object sender, EventArgs e)
@@ -86,23 +86,25 @@ namespace QupidMobile
 
         private void openTransactionsView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            var trans = (submittedTransaction)e.SelectedItem;
-            getAnswer(trans);
+            finishTransaction.finishTrans = (submittedTransaction)e.SelectedItem;
+            //getAnswer(trans);
+            serialFinish.Text = finishTransaction.finishTrans.Serial;
+            finishTransactionView.IsVisible = true;
         }
         protected async void getAnswer(submittedTransaction trans)
         {
-            var ans = await DisplayAlert("Finish Transaction", "Are you sure you would like finish serial: " + trans.Serial, "Finish", "Cancel");
-            if( ans)
-            {
-                closeTransaction(trans);
-            }
-            else
-            {
-                getOpenTransactions();
-            }
+            //var ans = await DisplayAlert("Finish Transaction", "Are you sure you would like finish serial: " + trans.Serial, "Finish", "Cancel");
+            //if( ans)
+            //{
+            //    closeTransaction(trans);
+            //}
+            //else
+            //{
+            //    getOpenTransactions();
+            //}
             //popupLoadingView.IsVisible = true;
         }
-        protected void closeTransaction(submittedTransaction finishtransaction)
+        protected void closeTransaction(submittedTransaction finishtransaction, int qty, string note)
         {
             transactions.transactionData transaction = new transactions.transactionData();
             transaction.moID = finishtransaction.mo_id;
@@ -114,8 +116,8 @@ namespace QupidMobile
             transaction.transID = finishtransaction.sid;
             transaction.setup = Convert.ToBoolean(finishtransaction.setup_flag);
             transaction.rework = Convert.ToBoolean(finishtransaction.rework_flag);
-            transaction.qty = 0;
-            transaction.note = "";
+            transaction.qty = qty;
+            transaction.note = note;
             var request = HttpWebRequest.Create("http://vsv-qupidweb-01:8410/api/finishTransaction/");
             request.ContentType = "application/json";
             request.Method = "POST";
@@ -132,6 +134,26 @@ namespace QupidMobile
 
             }
             getOpenTransactions();
+        }
+
+        private void cancelFinish_Clicked(object sender, EventArgs e)
+        {
+            finishTransactionView.IsVisible = false;
+            getOpenTransactions();
+        }
+
+        private void finishTransactions_Clicked(object sender, EventArgs e)
+        {
+            int qtyFinish = 0;
+            if (swFinishPart.IsToggled)
+                qtyFinish = 1;
+            closeTransaction(finishTransaction.finishTrans, qtyFinish, txtNotes.Text);
+            finishTransactionView.IsVisible = false;
+            getOpenTransactions();
+        }
+        public static class finishTransaction
+        {
+            public static submittedTransaction finishTrans { get; set; }
         }
     }
 }

@@ -92,18 +92,37 @@
 
 
 
-            <ContentView x:Name="popupLoadingView" BackgroundColor="#C0808080" Padding="10, 0" IsVisible="False" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All">
+            <ContentView x:Name="finishTransactionView" BackgroundColor="#C0808080" Padding="10, 0" IsVisible="False" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All">
                 <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-                    <Frame CornerRadius="10"  HeightRequest="600" WidthRequest="300" BackgroundColor="White">
+                    <Frame CornerRadius="10"  HeightRequest="600" WidthRequest="300" BackgroundColor="White" Margin="5, 40, 0, 0">
                         <StackLayout Orientation="Vertical">
-                            <Label x:Name="questionFinish" Text="Would you like to finish Serial 9999909?" Margin="5, 40, 0, 0"></Label>
-                            <StackLayout Orientation="Horizontal">
-                                <Switch x:Name="swFinishPart" VerticalOptions="Center"></Switch>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label LineBreakMode="WordWrap">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="Would you like to finish Serial # "></Span>
+                                            <Span x:Name="serialFinish"></Span>
+                                            <Span Text="?"></Span>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
                             </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                                <Switch x:Name="swFinishPart" Margin="125, 0, 125, 0"></Switch>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Editor x:Name="txtNotes" WidthRequest="200" HeightRequest="100">
+                                    
+                                </Editor>
+                            </StackLayout>
+
                             
-                            <StackLayout Orientation="Horizontal">
-                                <Button Text="Cancel" VerticalOptions="Start" Margin="10, 0, 0, 0" HorizontalOptions="Start" WidthRequest="400"></Button>
-                                <Button Text="Finish" VerticalOptions="End" HorizontalOptions="End" WidthRequest="400"></Button>
+
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Button Text="Cancel" x:Name="cancelFinish" Clicked="cancelFinish_Clicked" VerticalOptions="Start" Margin="10, 0, 10, 0" HorizontalOptions="Start" WidthRequest="200"></Button>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Button Text="Finish" x:Name="finishTransactions" Clicked="finishTransactions_Clicked" VerticalOptions="End" HorizontalOptions="End" WidthRequest="200"></Button>
                             </StackLayout>
                         </StackLayout>
                     </Frame>
