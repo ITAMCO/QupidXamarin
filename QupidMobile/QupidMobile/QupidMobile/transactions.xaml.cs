@@ -24,6 +24,18 @@ namespace QupidMobile
             txtMachine.Text = "M";
 
         }
+        public static string[] barcodeInfo;
+        protected override void OnAppearing()
+        {
+            if (barcodeInfo != null)
+            {
+                txtItemID.Text = barcodeInfo[0];
+                txtSerialLot.Text = barcodeInfo[1];
+                txtMoID.Text = barcodeInfo[2];
+                txtOPID.Text = barcodeInfo[3];
+                disableTextFields();
+            }
+        }
 
         private void btnLogout_Clicked(object sender, EventArgs e)
         {
@@ -43,16 +55,11 @@ namespace QupidMobile
             #endif      
 
             var scanner = new ZXing.Mobile.MobileBarcodeScanner();
-            string[] barcodeInfo;
             var result = await scanner.Scan();
             if(result != null)
             {
                 barcodeInfo = result.Text.Split(';');
-                txtItemID.Text = barcodeInfo[0];
-                txtSerialLot.Text = barcodeInfo[1];
-                txtMoID.Text = barcodeInfo[2];
-                txtOPID.Text = barcodeInfo[3];
-                disableTextFields();
+               
             }
             
         }

@@ -226,6 +226,9 @@
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\qrcode.png">
+      <PackagePath>qrcode.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Qupidlogo.png">
       <PackagePath>Qupidlogo.png</PackagePath>
     </AppxPackagedFile>

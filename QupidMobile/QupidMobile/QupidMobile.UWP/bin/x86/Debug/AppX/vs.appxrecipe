@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-20T15:03:02.423</Modified>
+      <Modified>2020-04-21T14:42:40.707</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\QupidMobile.UWP.exe">
       <PackagePath>entrypoint\QupidMobile.UWP.exe</PackagePath>
-      <Modified>2020-04-20T15:03:00.221</Modified>
+      <Modified>2020-04-21T14:42:38.520</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\microsoft.appcenter\3.1.0\lib\uap10.0\Microsoft.AppCenter.dll">
       <PackagePath>Microsoft.AppCenter.dll</PackagePath>
@@ -128,7 +128,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile\bin\Debug\netstandard2.0\QupidMobile.dll">
       <PackagePath>QupidMobile.dll</PackagePath>
-      <Modified>2020-04-20T15:02:52.560</Modified>
+      <Modified>2020-04-21T14:39:31.412</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -161,22 +161,22 @@
     <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-16T17:25:33.067</Modified>
+      <Modified>2020-04-15T20:36:09.556</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-16T17:25:33.068</Modified>
+      <Modified>2020-04-15T20:36:24.207</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-16T17:25:33.069</Modified>
+      <Modified>2020-04-15T20:36:45.129</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-16T17:25:33.069</Modified>
+      <Modified>2020-04-15T20:37:01.928</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
@@ -186,12 +186,12 @@
     <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-16T17:25:33.070</Modified>
+      <Modified>2020-04-15T20:31:50.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-16T17:25:33.071</Modified>
+      <Modified>2020-04-15T20:34:30.912</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
@@ -201,12 +201,12 @@
     <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-16T17:25:33.072</Modified>
+      <Modified>2020-04-15T20:35:35.801</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-16T17:25:33.072</Modified>
+      <Modified>2020-04-15T20:35:50.453</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
@@ -293,6 +293,10 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-13T19:06:56.644</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\qrcode.png">
+      <PackagePath>qrcode.png</PackagePath>
+      <Modified>2020-04-21T14:42:28.519</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\Qupidlogo.png">
       <PackagePath>Qupidlogo.png</PackagePath>
       <Modified>2020-04-13T19:25:51.670</Modified>
@@ -307,11 +311,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-04-20T15:03:00.039</Modified>
+      <Modified>2020-04-21T14:42:38.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-04-20T15:03:00.039</Modified>
+      <Modified>2020-04-21T14:42:38.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -327,11 +331,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-04-16T18:52:56.303</Modified>
+      <Modified>2020-04-21T14:42:39.470</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHubProjects\QupidXamarin\QupidXamarin\QupidMobile\QupidMobile\QupidMobile.UWP\bin\x86\Debug\Core\QupidMobile.UWP.exe">
       <PackagePath>QupidMobile.UWP.exe</PackagePath>
-      <Modified>2020-04-20T15:03:02.418</Modified>
+      <Modified>2020-04-21T14:42:40.702</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
