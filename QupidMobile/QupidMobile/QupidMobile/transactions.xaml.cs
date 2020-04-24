@@ -23,6 +23,24 @@ namespace QupidMobile
             txtEid.Text = user.eid;
             txtMachine.Text = "M";
 
+          
+        }
+
+        protected override void OnAppearing()
+        {
+            if (user.qrData != null)
+            {
+                var barcodeInfo = user.qrData.Split(';');
+                if (barcodeInfo.Length == 4)
+                {
+
+                    txtItemID.Text = barcodeInfo[0];
+                    txtSerialLot.Text = barcodeInfo[1];
+                    txtMoID.Text = barcodeInfo[2];
+                    txtOPID.Text = barcodeInfo[3];
+                    disableTextFields();
+                }
+            }
         }
 
         private void btnLogout_Clicked(object sender, EventArgs e)
@@ -37,24 +55,9 @@ namespace QupidMobile
         }
         private async void scanQRCode()
         {
-            #if __ANDROID__
-	            // Initialize the scanner first so it can track the current context
-	            MobileBarcodeScanner.Initialize (Application);
-            #endif      
-
-            var scanner = new ZXing.Mobile.MobileBarcodeScanner();
-            string[] barcodeInfo;
-            var result = await scanner.Scan();
-            if(result != null)
-            {
-                barcodeInfo = result.Text.Split(';');
-                txtItemID.Text = barcodeInfo[0];
-                txtSerialLot.Text = barcodeInfo[1];
-                txtMoID.Text = barcodeInfo[2];
-                txtOPID.Text = barcodeInfo[3];
-                disableTextFields();
-            }
-            
+        
+            user.sendingScreen = "transactions";
+           await Navigation.PushAsync(new ScannerView());
         }
         protected void disableTextFields()
         {
@@ -73,7 +76,9 @@ namespace QupidMobile
 
             if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
             {
+#pragma warning disable CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
                 DisplayAlert("No Camera", ":( No camera available.", "OK");
+#pragma warning restore CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
                 return;
             }
 
@@ -95,7 +100,9 @@ namespace QupidMobile
             var bytes = new byte[stream.Length];
             await stream.ReadAsync(bytes, 0, (int)stream.Length);
             string base64 = System.Convert.ToBase64String(bytes);
+#pragma warning disable CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
             DisplayAlert("Image info", base64, "YEET");
+#pragma warning restore CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
         }
 
         private void takePic_Clicked(object sender, EventArgs e)

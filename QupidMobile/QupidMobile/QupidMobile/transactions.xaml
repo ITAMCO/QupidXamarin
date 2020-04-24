@@ -60,6 +60,7 @@
             </Label>
             <ImageButton Source="qrcode.png" Clicked="ScanQRCode_Clicked"
                x:Name="qr"
+                         BackgroundColor="Transparent"
                 RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
                              ElementName=whiteBox,
                              Property=Width,

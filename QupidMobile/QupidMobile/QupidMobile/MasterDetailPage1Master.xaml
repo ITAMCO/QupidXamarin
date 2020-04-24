@@ -48,7 +48,7 @@
               Text="Qupid Mobile 5.0.0"
               FontSize="12"
               Style="{DynamicResource SubtitleStyle}"/>
-                    <Button Text="Logout" Clicked="Logout_Clicked"  HorizontalOptions="Start" x:Name="Logout" Grid.Column="1"
+                    <Button Text="Logout" Clicked="Logout_Clicked" BackgroundColor="Transparent" TextColor="#3586FF" HorizontalOptions="Start" x:Name="Logout" Grid.Column="1"
               Grid.Row="2"  Style="{DynamicResource SubtitleStyle}"></Button>
                 </Grid>
       </ListView.Header>
